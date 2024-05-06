@@ -1,0 +1,3 @@
+classification: TextBlob, VADER
+summarizer: BART, FalconsAI, Pegasus
+paraphrase: BART

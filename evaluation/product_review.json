@@ -1,0 +1,2038 @@
+
+[
+  {
+    "ReviewID": "1",
+    "ReviewText": "The product is truly exceptional in terms of both aesthetics and functionality, showcasing a level of craftsmanship that is rare in today's market. It exceeded my expectations in every way, making it a delight to use daily. However, the shipping process was incredibly slow and lacked proper communication from the carrier, which was quite frustrating given the anticipation of receiving such a high-quality item.",
+    "overallSentiment":"Positive",
+    "Segments": [
+      {
+        "SegmentID": "1",
+        "SegmentText": "The product is truly exceptional in terms of both aesthetics and functionality, showcasing a level of craftsmanship that is rare in today's market.",
+        "Sentiment": "Positive",
+        "Token" : ["aesthetics", "functionality"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "However, the shipping process was incredibly slow and lacked proper communication from the carrier.",
+        "Sentiment": "Negative",
+        "Token" : ["shipping", "communcation"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "2",
+    "ReviewText": "This item stands out with its superior build quality and innovative features that simplify daily tasks, making it an invaluable addition to my home. Regrettably, the time it took to arrive was far beyond what was initially quoted, detracting significantly from my overall satisfaction.",
+    "overallSentiment":"Positive",
+    "Segments": [
+      {
+        "SegmentID": "1",
+        "SegmentText": "This item stands out with its superior build quality and innovative features that simplify daily tasks, making it an invaluable addition to my home.",
+        "Sentiment": "Positive",
+        "Token" : ["quality", "features"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "Regrettably, the time it took to arrive was far beyond what was initially quoted, detracting significantly from my overall satisfaction.",
+        "Sentiment": "Negative",
+        "Token" : ["time"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "3",
+    "ReviewText": "The quality of this product is unparalleled; it performs consistently and reliably. The sleek design is also a significant plus, adding a touch of elegance to its surroundings. Nonetheless, the delay in shipping and the poor handling of my queries about the status of the delivery left much to be desired.",
+    "overallSentiment":"Positive",
+    "Segments": [
+      {
+        "SegmentID": "1",
+        "SegmentText": "The quality of this product is unparalleled; it performs consistently and reliably. The sleek design is also a significant plus, adding a touch of elegance to its surroundings.",
+        "Sentiment": "Positive",
+        "Token": ["quality", "design"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "Nonetheless, the delay in shipping and the poor handling of my queries about the status of the delivery left much to be desired.",
+        "Sentiment": "Negative",
+        "Token": ["shipping", "handling"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "4",
+    "ReviewText": "I am impressed with the high-quality materials used in this product and its user-friendly interface. However, the shipping was not only slow but also the package arrived with slight damage to the exterior, which was disheartening.",
+    "overallSentiment":"Negative",
+    "Segments": [
+      {
+        "SegmentID": "1",
+        "SegmentText": "I am impressed with the high-quality materials used in this product and its user-friendly interface.",
+        "Sentiment": "Positive",
+        "Token": ["materials", "interface"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "However, the shipping was not only slow but also the package arrived with slight damage to the exterior, which was disheartening.",
+        "Sentiment": "Negative",
+        "Token": ["shipping", "damage"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "5",
+    "ReviewText": "The performance and quality of this product have been outstanding, exceeding all my expectations. It's been a perfect choice for my needs. The only issue was the extended shipping duration, which took a toll on my patience, especially since I was eager to start using this amazing product.",
+    "overallSentiment":"Negative",
+    "Segments": [
+      {
+        "SegmentID": "1",
+        "SegmentText": "The performance and quality of this product have been outstanding, exceeding all my expectations. It's been a perfect choice for my needs.",
+        "Sentiment": "Positive",
+        "Token": ["performance", "quality"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "The only issue was the extended shipping duration, which took a toll on my patience, especially since I was eager to start using this amazing product.",
+        "Sentiment": "Negative",
+        "Token": ["shipping"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "6",
+    "ReviewText": "For what it is, it's a neat little machine and I applaud the company for trying to innovate by creating a small, single barrel washer that isn't $300. Unfortunately, there are draw backs with that reduction in cost.<br /><br />I did a few loads: underwear/delicates, and mixed items (about an outfit worth).<br /><br />Positive attributes: Small, washes clothes well, light weight, easy to use, nice medium between a totally manual machine and an automated one.<br /><br />Negative attributes: water leaks down the sides, (even when water is only filled half way), spinning drum detaches no matter how much or how evenly weighted it is, clothes don't spin out very dry, (they're not dripping wet, but still heavy with water)",
+    "overallSentiment":"Negative",
+    "Segments": [
+      {
+        "SegmentID": "1",
+        "SegmentText": "it's a neat little machine and I applaud the company for trying to innovate by creating a small, single barrel washer that isn't $300",
+        "Sentiment": "Positive",
+        "Token": ["washer"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "water leaks down the sides, (even when water is only filled half way), spinning drum detaches no matter how much or how evenly weighted it is, clothes don't spin out very dry, (they're not dripping wet, but still heavy with water)",
+        "Sentiment": "Negative",
+        "Token": ["water", "drum"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "7",
+    "ReviewText": "This works really well, and it makes Sonic ice! However, I do wish that I could attach a water line. I have a regular ice maker that is hooked up and works all the time, but this one requires manual loading and draining so I only use it for special occasions. Overall, it's a lot of extra work and I rarely use it because of that. I may end up buying a replacement that can be left connected.",
+    "overallSentiment": "Negative",
+    "Segments": [
+      {
+        "SegmentID": "1",
+        "SegmentText": "This works really well, and it makes Sonic ice!",
+        "Sentiment": "Positive",
+        "Token": ["ice"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "I do wish that I could attach a water line",
+        "Sentiment": "Negative",
+        "Token": ["water line"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "this one requires manual loading and draining so I only use it for special occasions.",
+        "Sentiment": "Negative",
+        "Token": ["loading", "draining"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "8",
+    "ReviewText": "So far so good, only issues, it looked used. Lock tab for hot water valve was worn down, see pic. Also, hot water valve is misaligned, see pic. Didn't notice till after install. So i went with it. Will update if it works better than it looks. Install was easy, looks like a good replacement part. Update, been a few weeks, working great still, so only issue is cosmetic.",
+    "overallSentiment": "Positive",
+    "Segments": [
+      {
+        "SegmentID": "1",
+        "SegmentText": "Update, been a few weeks, working great still",
+        "Sentiment": "Positive",
+        "Token": ["working"]
+      },
+      {
+        "SegmentID": "1",
+        "SegmentText": "Install was easy, looks like a good replacement part.",
+        "Sentiment": "Positive",
+        "Token": ["install", "replacement"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "it looked used",
+        "Sentiment": "Negative",
+        "Token": ["used"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "Lock tab for hot water valve was worn down",
+        "Sentiment": "Negative",
+        "Token": ["lock tab"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "hot water valve is misaligned",
+        "Sentiment": "Negative",
+        "Token": ["water valve"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "9",
+    "ReviewText": "If you're searching for this, you know what it is. My gas range is the standard 36\" range with built-in oven that is found in many homes. Nothing fancy. The problem is that there is a small gap between the range and the cabinet/countertop that food or liquid can fall into. These Stainless Steel Stove Gap Covers solves exactly this problem. Due to its proximity to the fire and heat, the gap cover must be metal and because will be exposed to oils and other food particles, it needs to be easy-to-clean. These covers fit both criteria. With an extendable piece, these covers can fit all ranges regardless of the depth of the stove and there is a small metal piece that is supposed to provide tension when inserted into the gap. Unfortunately, this is where I have the first problem with this product. The tension just isn't enough to keep the gap cover in the gap snugly. I think a cork or silicone piece would help give it the friction in needs to stay in place. The second problem I have is that the product is in the shape of the letter \"T\" but because there is a slight difference in height between my range and the counter, it has to tilt to one side, further making it hard for the cover to stay in place. The last issue is the extension part. It doesn't lock into a position. Without it, you can accidentally push on the cover and shorten it. It would be better to have some sort of locking mechanism that will keep it to the length that you set. This product does what its intended for, but I think a few tweaks and it would be perfect (I might just look to see if I can make these tweaks myself).",
+    "overallSentiment": "Positive",
+    "Segments": [
+      {
+        "SegmentID": "1",
+        "SegmentText": "These Stainless Steel Stove Gap Covers solves exactly this problem.",
+        "Sentiment": "Positive",
+        "Token": ["gap covers"]
+      },
+      {
+        "SegmentID": "1",
+        "SegmentText": "These covers fit both criteria. With an extendable piece, these covers can fit all ranges regardless of the depth of the stove.",
+        "Sentiment": "Positive",
+        "Token": ["extendable piece", "covers"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "The tension just isn't enough to keep the gap cover in the gap snugly. I think a cork or silicone piece would help give it the friction in needs to stay in place.",
+        "Sentiment": "Negative",
+        "Token": ["tension", "gap cover"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "The second problem I have is that the product is in the shape of the letter because there is a slight difference in height between my range and the counter, it has to tilt to one side, further making it hard for the cover to stay in place. The last issue is the extension part. It doesn't lock into a position. Without it, you can accidentally push on the cover and shorten it. It would be better to have some sort of locking mechanism that will keep it to the length that you set.",
+        "Sentiment": "Negative",
+        "Token": ["shape", "extension part"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "10",
+    "ReviewText": "I was excited to use this, I liked how there was a separate insert for washing- but alas, it leaked where the hose attached to the bucket. Even though it leaked, I’m giving 3 stars instead of one because I liked the added insert for washing. Just need to work on QC.",
+    "overallSentiment": "Positive",
+    "Segments": [
+        {
+            "SegmentID": "1",
+            "SegmentText": "I was excited to use this, I liked how there was a separate insert for washing",
+            "Sentiment": "Positive",
+            "Token": ["insert", "washing"]
+        },
+        {
+            "SegmentID": "2",
+            "SegmentText": "it leaked where the hose attached to the bucket",
+            "Sentiment": "Negative",
+            "Token": ["hose", "bucket"]
+        },
+        {
+            "SegmentID": "1",
+            "SegmentText": "Even though it leaked, I’m giving 3 stars instead of one because I liked the added insert for washing",
+            "Sentiment": "Positive",
+            "Token": ["insert", "washing"]
+        },
+        {
+            "SegmentID": "2",
+            "SegmentText": "Just need to work on QC",
+            "Sentiment": "Negative",
+            "Token": ["QC"]
+        }
+    ]
+},
+{
+    "ReviewID": "11",
+    "ReviewText": "They seem to keep in the flavor of the coffee, despite the acids inherent in coffee. I. Think. For long term storage, they were hyped as keeping acids at bay...may be they are doing so. I just can't see any difference between using these and just storing the coffee in an airtight container.",
+    "overallSentiment": "Negative",
+    "Segments": [
+        {
+            "SegmentID": "1",
+            "SegmentText": "They seem to keep in the flavor of the coffee, despite the acids inherent in coffee",
+            "Sentiment": "Positive",
+            "Token": ["flavor", "coffee"]
+        },
+        {
+            "SegmentID": "2",
+            "SegmentText": "I just can't see any difference between using these and just storing the coffee in an airtight container",
+            "Sentiment": "Negative",
+            "Token": ["container", "coffee"]
+        }
+    ]
+},
+{
+    "ReviewID": "12",
+    "ReviewText": "I have an exhaust stack that goes up through the attic, I installed an American Aldes Spring Return Back Draft Damper - 7 Inch also purchased thru Amazon, My only complaint with the range hood is the variable speed fan vibrates loudly at many different speeds. You have to fiddle with the speed till it is at an acceptable noise level--delivery was quick as always with Amazon..",
+    "overallSentiment": "Negative",
+    "Segments": [
+        {
+            "SegmentID": "1",
+            "SegmentText": "delivery was quick as always with Amazon",
+            "Sentiment": "Positive",
+            "Token": ["delivery"]
+        },
+        {
+            "SegmentID": "2",
+            "SegmentText": "the variable speed fan vibrates loudly at many different speeds. You have to fiddle with the speed till it is at an acceptable noise level",
+            "Sentiment": "Negative",
+            "Token": ["fan", "speed"]
+        }
+    ]
+},
+{
+    "ReviewID": "13",
+    "ReviewText": "I found these Crucial Air Wicking filters to replace my MAF1 filter for my humidifier. The wick length and height are the same as the original, but not quite as thick as the OEM filter. The thickness obviously allows it hold and wick away more moisture, so these filters, while a little bit less expensive aren't as effective. Unfortunately, I cannot recommend these as a reliable replacement for my OEM MAF1 filter. I'd be better off spending a few dollars more to save more in the long run. I hope the manufacturer sees this review and considers re-working the dimensions for a proper filter. There are some things in life you can't cheap out on, and apparently, humidifier filters is on that list. I received this product at a discounted rate in exchange for product testing and a fair and unbiased review. I am under no obligation to provide a positive review and received no incentives or rewards for doing so. My goal is to highlight features and drawbacks that I would want to know about as a buyer, not hype the product for the manufacturer to increase sales. My remarks are sincere and true. I work very hard trying to write insightful and thoughtful reviews for each item. My goal is ensure that these reviews are helpful to others. My opinions are my own and I thoroughly believe in keeping the integrity of Amazon reviews legitimate to help the community make the best choices. It is just my own opinion and experience with the product, your own opinion and experience may vary. I received no monetary compensation and I am not required to give a good review. Just looking at my public profile and you will see I don't hand out many 5 star reviews. They need to be earned for me to recommend a product regardless of the price I paid. Kindly click 'Yes' below if you found my review helpful.",
+    "overallSentiment": "Negative",
+    "Segments": [
+        {
+            "SegmentID": "1",
+            "SegmentText": "The wick length and height are the same as the original, but not quite as thick as the OEM filter",
+            "Sentiment": "Positive",
+            "Token": ["wick", "filter"]
+        },
+        {
+            "SegmentID": "2",
+            "SegmentText": "these filters, while a little bit less expensive aren't as effective",
+            "Sentiment": "Negative",
+            "Token": ["filters"]
+        },
+        {
+            "SegmentID": "2",
+            "SegmentText": "Unfortunately, I cannot recommend these as a reliable replacement for my OEM MAF1 filter",
+            "Sentiment": "Negative",
+            "Token": ["filter"]
+        }
+    ]
+},
+  {
+    "ReviewID": "14",
+    "ReviewText": "I like it a lot, but the door is off and may be missing a screw on the bottom--unfortunately, I can't address it, because I can't do any lifting, right now. So, at present, I have the door propped which makes it a headache when I have to open it. Quality control is important.",
+    "overallSentiment": "Positive",
+    "Segments": [
+      {
+        "SegmentID": "1",
+        "SegmentText": "I like it a lot",
+        "Sentiment": "Positive",
+        "Token": ["door", "screw"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "but the door is off and may be missing a screw on the bottom--unfortunately, I can't address it, because I can't do any lifting, right now. So, at present, I have the door propped which makes it a headache when I have to open it",
+        "Sentiment": "Negative",
+        "Token": ["door", "screw"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "15",
+    "ReviewText": "This pan does the job it's supposed to do. I would give it more stars if it didn't warp while using it. I've never had that happen with a broiler pan before. If you have your rack on the very top try not to use too thick a piece of meat as it could touch the element and burn. I just use the second from the top to avoid this. I wish this were a better pan though.",
+    "overallSentiment": "Negative",
+    "Segments": [
+      {
+        "SegmentID": "1",
+        "SegmentText": "This pan does the job it's supposed to do.",
+        "Sentiment": "Positive",
+        "Token": ["pan"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "I would give it more stars if it didn't warp while using it.",
+        "Sentiment": "Negative",
+        "Token": ["pan"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "I've never had that happen with a broiler pan before.",
+        "Sentiment": "Negative",
+        "Token": ["pan"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "I wish this were a better pan though.",
+        "Sentiment": "Negative",
+        "Token": ["pan"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "16",
+    "ReviewText": "This thing worked for a while and then the sensor quit being 'tricked' by it. Once that continued we re-evaluated our need for a Keurig and decided just to go back to a standard coffee pot. Keurigs are expensive, pods are expensive and you can't clean the damn machine out. Its all a waste. At least this reusable filter was somewhat helpful, but we are much happier with our $20 12 cup coffee pot that works faster than the single serving Keurig ever did.",
+    "overallSentiment": "Negative",
+    "Segments": [
+      {
+        "SegmentID": "2",
+        "SegmentText": "This thing worked for a while and then the sensor quit being 'tricked' by it.",
+        "Sentiment": "Negative",
+        "Token": ["sensor"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "Keurigs are expensive, pods are expensive and you can't clean the damn machine out.",
+        "Sentiment": "Negative",
+        "Token": ["Keurig", "pods", "machine"]
+      },
+      {
+        "SegmentID": "1",
+        "SegmentText": "At least this reusable filter was somewhat helpful.",
+        "Sentiment": "Positive",
+        "Token": ["filter"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "17",
+    "ReviewText": "The good: this was a good fit for my LG WM2016CW and I was able to install by myself. The lower half of the door boot still seems to be in good condition. AFAICT, no water has leaked out. The bad: after 1.5 years, I noticed some deformation near the top, then found a hole. I took apart the machine and found two holes. It looks like the rubber degraded. I see small bits of rubber near the two holes.",
+    "overallSentiment": "Negative",
+    "Segments": [
+      {
+        "SegmentID": "1",
+        "SegmentText": "The good: this was a good fit for my LG WM2016CW and I was able to install by myself.",
+        "Sentiment": "Positive",
+        "Token": ["install"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "The bad: after 1.5 years, I noticed some deformation near the top, then found a hole.",
+        "Sentiment": "Negative",
+        "Token": ["top", "hole"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "18",
+    "ReviewText": "Only 3 stars because the alum tuning that came flat did not want to stay closed when installed in the plastic vent piece. Had to use alum tape to keep closed. Also the vent grill that keeps out animals does not sit snug. But. Looks good and does the job. My last (as shown) was in complete shambles so this definitely fixed the issue.",
+    "overallSentiment": "Negative",
+    "Segments": [
+      {
+        "SegmentID": "1",
+        "SegmentText": "Looks good and does the job.",
+        "Sentiment": "Positive",
+        "Token": ["job"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "The alum tuning that came flat did not want to stay closed when installed in the plastic vent piece. Had to use alum tape to keep closed.",
+        "Sentiment": "Negative",
+        "Token": ["alum tuning", "plastic vent piece"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "Also the vent grill that keeps out animals does not sit snug.",
+        "Sentiment": "Negative",
+        "Token": ["vent grill"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "19",
+    "ReviewText": "I really like using reusable k cups. 2 of the 3 I received worked great. 1 sticks. I have to stick a knife in the 3rd one and give it a twist to get it open. Thats okay 2 are plenty for me anyway. This comes with the adapter you need for the Keurig to accept reusable k cups. I was extremely disappointed that I had to get an adapter but very pleased that I found one to purchase.",
+    "overallSentiment": "Positive",
+    "Segments": [
+      {
+        "SegmentID": "1",
+        "SegmentText": "I really like using reusable k cups. 2 of the 3 I received worked great.",
+        "Sentiment": "Positive",
+        "Token": ["k cups"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "1 sticks. I have to stick a knife in the 3rd one and give it a twist to get it open.",
+        "Sentiment": "Negative",
+        "Token": ["sticks"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "I was extremely disappointed that I had to get an adapter.",
+        "Sentiment": "Negative",
+        "Token": ["adapter"]
+      },
+      {
+        "SegmentID": "1",
+        "SegmentText": "Very pleased that I found one to purchase.",
+        "Sentiment": "Positive",
+        "Token": ["purchase"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "20",
+    "ReviewText": "Our ancient range finally expired. This range was recommended to me by a salesperson at an appliance store near me. It looks good. The burners are a bit too powerful for the home cook IMHO. Something I've noticed is that the burners will heat food unevenly, as in a cast iron pan of scrambled eggs will cook faster on one side. This is without any fan on in the kitchen. Does that sound right to you? So I have to rotate pans 180 degrees. This is annoying. There's a tiny burner at the center of the right burner which I couldn't figure out, then eventually turned the tiny cap a bit and it lit and stayed on. It's actually kind of useful. The oven racks SUCK, they're impossible to pull in and out, they have odd little metal balls that just do not cooperate, major fail. And the halogen lights in the oven are ugly as sin, dismal North Korean prison camp type of light. The oven has been satisfactory. I do like the big iron grates.",
+    "overallSentiment": "Negative",
+    "Segments": [
+      {
+        "SegmentID": "1",
+        "SegmentText": "It looks good. There's a tiny burner at the center of the right burner which I couldn't figure out, then eventually turned the tiny cap a bit and it lit and stayed on. It's actually kind of useful.",
+        "Sentiment": "Positive",
+        "Token": ["burner", "tiny cap"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "The burners are a bit too powerful for the home cook IMHO. The burners will heat food unevenly, as in a cast iron pan of scrambled eggs will cook faster on one side. The oven racks SUCK, they're impossible to pull in and out, they have odd little metal balls that just do not cooperate.",
+        "Sentiment": "Negative",
+        "Token": ["burners", "food", "oven racks"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "The halogen lights in the oven are ugly as sin, dismal North Korean prison camp type of light.",
+        "Sentiment": "Negative",
+        "Token": ["halogen lights"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "21",
+    "ReviewText": "I bought the Thor oven/range that this matches. I eventually had this range hood installed. It looks great. It moves a lot of air. It's LOUD. VERY LOUD. On the lowest setting, it's LOUD. You can forget about hearing yourself think or carrying on a conversation in the kitchen it's so loud. Worse is that the blue and red LEDs face the user and are bare meaning you can enjoy macular degeneration from the LED light as you cook. This is just a bonehead stupid design decision. Really dumb. I'm looking at fabricating an opaque plastic diffuser to make his functional.",
+    "overallSentiment": "Negative",
+    "Segments": [
+      {
+        "SegmentID": "1",
+        "SegmentText": "It looks great. It moves a lot of air.",
+        "Sentiment": "Positive",
+        "Token": ["air"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "It's LOUD. VERY LOUD. On the lowest setting, it's LOUD. You can forget about hearing yourself think or carrying on a conversation in the kitchen it's so loud.",
+        "Sentiment": "Negative",
+        "Token": ["LOUD"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "Worse is that the blue and red LEDs face the user and are bare meaning you can enjoy macular degeneration from the LED light as you cook.",
+        "Sentiment": "Negative",
+        "Token": ["LED light"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "22",
+    "ReviewText": "These KITCHEN BASICS Electric Stove Burner Inserts dont have the quality I was hoping for. My old ones were chrome-plated steel, and these are very light in comparison, and seem like aluminum not steel, though I’m not sure of that. I see other reviews that say that these stain, and the chrome ones I’ve had didn’t seem to do that. These will be ok I guess, but I wish I’d ordered a different brand.",
+    "overallSentiment": "Negative",
+    "Segments": [
+      {
+        "SegmentID": "2",
+        "SegmentText": "These KITCHEN BASICS Electric Stove Burner Inserts dont have the quality I was hoping for.",
+        "Sentiment": "Negative",
+        "Token": ["Burner Inserts"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "These will be ok I guess, but I wish I’d ordered a different brand.",
+        "Sentiment": "Negative",
+        "Token": ["brand"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "I see other reviews that say that these stain, and the chrome ones I’ve had didn’t seem to do that.",
+        "Sentiment": "Negative",
+        "Token": ["stain"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "23",
+    "ReviewText": "Not as great as it looks. It doesn't seem to clean dirty items very well. Maybe if you've only worn it for half a day. The frame that the bucket mounts to is starting to crack after only 15-20 uses. It works well for button up t-shirts, socks, underwear, and small towels/rags. Everything else has been a disaster. I decided if the frame breaks i'll build a new frame out of wood and run it outside or something.",
+    "overallSentiment": "Negative",
+    "Segments": [
+      {
+        "SegmentID": "2",
+        "SegmentText": "It doesn't seem to clean dirty items very well. Maybe if you've only worn it for half a day.",
+        "Sentiment": "Negative",
+        "Token": ["dirty items"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "The frame that the bucket mounts to is starting to crack after only 15-20 uses.",
+        "Sentiment": "Negative",
+        "Token": ["frame"]
+      },
+      {
+        "SegmentID": "1",
+        "SegmentText": "It works well for button up t-shirts, socks, underwear, and small towels/rags.",
+        "Sentiment": "Positive",
+        "Token": ["works"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "24",
+    "ReviewText": "First the only reason I gave it a four star is it was not very easy to connect up to the utilities!! Other than that I love it it washes fantastic! I bought it at Sears because it was on sale! I have had it about six weeks but love how well my dishes and silver sparkle!",
+    "overallSentiment": "Positive",
+    "Segments": [
+      {
+        "SegmentID": "1",
+        "SegmentText": "Other than that I love it it washes fantastic!",
+        "Sentiment": "Positive",
+        "Token": ["wash"]
+      },
+      {
+        "SegmentID": "1",
+        "SegmentText": "I have had it about six weeks but love how well my dishes and silver sparkle!",
+        "Sentiment": "Positive",
+        "Token": ["dishes", "silver sparkle"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "First the only reason I gave it a four star is it was not very easy to connect up to the utilities!!",
+        "Sentiment": "Negative",
+        "Token": ["connect"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "25",
+    "ReviewText": "Well I don't usually leave reviews but felt I needed to on this one as a public service announcement. The kit worked fine however the screws supplied did not fit in any of the predrilled holes. The brackets were fine and the plastic parts. I happen to carry many different kinds of screws that fit almost any need for a DIYer, so I was able to manage. That being said if my kit was a fluke this is more of a venting mechanism because it is frustrating to have figure it out when the proper materials are not sent. Truth be told I went this route because it was $5 cheaper then OEM. Goes to show you sometimes you get what you pay for.",
+    "overallSentiment": "Negative",
+    "Segments": [
+      {
+        "SegmentID": "2",
+        "SegmentText": "The kit worked fine however the screws supplied did not fit in any of the predrilled holes.",
+        "Sentiment": "Negative",
+        "Token": ["screws"]
+      },
+      {
+        "SegmentID": "1",
+        "SegmentText": "The brackets were fine and the plastic parts.",
+        "Sentiment": "Positive",
+        "Token": ["brackets", "plastic parts"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "It is frustrating to have figure it out when the proper materials are not sent.",
+        "Sentiment": "Negative",
+        "Token": ["sent"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "26",
+    "ReviewText": "KEURIG K-EXPRESS ESSENTIALS FROM WAL-MART. If you have this model that was put out by walmart. Your cartridges will fit but the holder won't. Too bad I don't have tools cause I think I could make mine work. Here is what I believe to be the problem. At bottom tank where you would insert holder over screen. There is too much space to clip in its simply too tall/deep for holder to clip in. If I could cut extra off would fit. This isn't sellers design issue, as from what can tell will fit other models. Im gonna measure see if can find one. If not will gift cartridges on to another person.",
+    "overallSentiment": "Negative",
+    "Segments": [
+      {
+        "SegmentID": "2",
+        "SegmentText": "Your cartridges will fit but the holder won't.",
+        "Sentiment": "Negative",
+        "Token": ["cartridges", "holder"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "Too bad I don't have tools cause I think I could make mine work.",
+        "Sentiment": "Negative",
+        "Token": ["tools"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "27",
+    "ReviewText": "If you purchase any of the Broan hoods in this series do not install halogen bulbs - you will need to disassemble the hood to change the bulbs when they burn out. Install LED bulbs and hopefully you will move or die before they need to be replaced. The plastic housing for the light socket is weak and will likely break when you try to remove a spent bulb. You will give up the lower light setting but it is worth it.",
+    "overallSentiment": "Negative",
+    "Segments": [
+      {
+        "SegmentID": "2",
+        "SegmentText": "Install LED bulbs and hopefully you will move or die before they need to be replaced.",
+        "Sentiment": "Negative",
+        "Token": ["LED bulbs"]
+      },
+      {
+        "SegmentID": "2",
+        "SegmentText": "The plastic housing for the light socket is weak and will likely break when you try to remove a spent bulb.",
+        "Sentiment": "Negative",
+        "Token": ["plastic housing"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "28",
+    "ReviewText": "The part was a perfect replacement for my old burnt out heating element. Easy to install and my oven is working again.",
+    "overallSentiment": "Positive",
+    "Segments": [
+      {
+        "SegmentID": "1",
+        "SegmentText": "The part was a perfect replacement for my old burnt out heating element. Easy to install and my oven is working again.",
+        "Sentiment": "Positive",
+        "Token": ["part", "heating element", "oven"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "29",
+    "ReviewText": "The handle for the oven door was perfect and very easy to install.",
+    "overallSentiment": "Positive",
+    "Segments": [
+      {
+        "SegmentID": "1",
+        "SegmentText": "The handle for the oven door was perfect and very easy to install.",
+        "Sentiment": "Positive",
+        "Token": ["handle"]
+      }
+    ]
+  },
+  {
+    "ReviewID": "30",
+    "ReviewText": "I needed to replace the original racks in the oven and these were the perfect fit. They arrived quickly and were very easy to install.",
+    "overallSentiment": "Positive",
+    "Segments": [
+      {
+        "SegmentID": "1",
+        "SegmentText": "I needed to replace the original racks in the oven and these were the perfect fit.",
+        "Sentiment": "Positive",
+        "Token": ["racks"]
+      },
+      {
+        "SegmentID": "1",
+        "SegmentText": "They arrived quickly and were very easy to install.",
+        "Sentiment": "Positive",
+        "Token": ["install", "arrive"]
+      }
+    ]
+  },
+    {
+      "ReviewID": "31",
+      "ReviewText": "Leaks! Arrived on time. No apparent damage from shipping. I'll update review after use. Edit: Ran through a test cycle. Leaks like a sieve. Inspected and found a large hole in the tub. I've contacted the seller and they want me to take to an appliance repair and they will pay for it. I've called several repair facilities and no one wants to repair...too much hassle. I've started the return process with Amazon.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "Arrived on time. No apparent damage from shipping.",
+          "Sentiment": "Positive",
+          "Token": ["shipping"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "Leaks like a sieve. Inspected and found a large hole in the tub.",
+          "Sentiment": "Negative",
+          "Token": ["Leaks", "tub"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "I've called several repair facilities and no one wants to repair...too much hassle. I've started the return process with Amazon.",
+          "Sentiment": "Negative",
+          "Token": ["repair facilities"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "32",
+      "ReviewText": "Tricky to use, but coffee tastes good! I had to read a lot of reviews and mess with my brewer a lot to get these to work. Turns out the trick was to keep trying by pushing the cup as far into the holder as possible and quickly closing it. Eventually it read as compatible and didn’t give an error message. I normally use a clip that lets me use any old cup, but it doesn’t work for the carafe size cups as they require a different color, so I had to remove it from my machine. Coffee tastes good and they were fairly easy to clean. I just wish it was a bit less fiddly. It seems like the spring pushes the cup back up out of the holder a bit, so it takes a lot of tries to get it pushed in far enough not to freak out the brewer.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "2",
+          "SegmentText": "I had to read a lot of reviews and mess with my brewer a lot to get these to work.",
+          "Sentiment": "Negative",
+          "Token": ["brewer"]
+        },
+        {
+          "SegmentID": "1",
+          "SegmentText": "Coffee tastes good and they were fairly easy to clean.",
+          "Sentiment": "Positive",
+          "Token": ["tastes", "clean"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "I just wish it was a bit less fiddly.",
+          "Sentiment": "Negative",
+          "Token": ["fiddly"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "It seems like the spring pushes the cup back up out of the holder a bit, so it takes a lot of tries to get it pushed in far enough not to freak out the brewer.",
+          "Sentiment": "Negative",
+          "Token": ["spring", "brewer"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "33",
+      "ReviewText": "Great little pour over filter, with some problems. I drink pour over coffee almost exclusively, and wanted to get away from the disposable filters. This looked just like what I needed, so I got it. It has a lot of good features: super easy to use and clean, and it looks nice too, and doesn't take up too much space. The screen is very fine, so no coffee grounds got through. The screen is so fine--yet works so well--that I suspect I could even use this on rooibos tea, which is very fine indeed. On to the problems. The silicone (rubber?) ring around the base was half off when it came out of the package. I couldn't get it back on. It doesn't really matter in terms of operation, but kind of not a good idea to have something breaking right out of the package. I also don't get why the coffee scoop has a brush on the end of it. For cleaning the screen I guess, but it seems odd to me to have it on the end of the coffee scoop, and frankly, it didn't help with cleaning it all (but the mesh did just rinse clean). I don't really see this thing lasting that long. Finally, as others have noted, it makes a fairly weak cup of coffee. I have another cup filter like this that doesn't start filtering until you put it on the cup, which means you can let it brew a longer. I much prefer that filter to this one, although that one uses disposable filters. There may be a trick to learning to do a good pour-over, so perhaps my complaints reflect that, but for now, I think I'll keep using my other filter with the new reusable linen filters I found on Amazon. I might use this to filter tea after I've steeped it in a pot--it is a great fine mesh filter. But overall, this doesn't quite suit my needs.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "It has a lot of good features: super easy to use and clean, and it looks nice too, and doesn't take up too much space. The screen is very fine, so no coffee grounds got through.",
+          "Sentiment": "Positive",
+          "Token": ["use", "clean", "looks", "space", "screen"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "The silicone (rubber?) ring around the base was half off when it came out of the package. I couldn't get it back on.",
+          "Sentiment": "Negative",
+          "Token": ["silicone ring", "rubber"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "I don't really see this thing lasting that long.",
+          "Sentiment": "Negative",
+          "Token": ["lasting"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "Finally, as others have noted, it makes a fairly weak cup of coffee.",
+          "Sentiment": "Negative",
+          "Token": ["coffee"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "34",
+      "ReviewText": "This SS-10 brewer is ok, but it's no SS-700. I bought the Cuisinart SS-10 to replace our SS-700, Cuisinart's previous model 1 cup brewer. The SS-700 lasted almost 6 1/2 years, which is far better than my earlier 1 cup units. Unfortunately, I have to say the SS-700 was better. For one thing, when you close the SS-10's handle on a K-cup, it feels and sounds like the mechanism is about to break. It feels flimsy. Plus, the SS-700 allowed you to select a brewing temperature between 187 and 192 degrees F, and the coffee was HOT. The SS-10 has only HOT and XHOT selections and, sadly, even with the XHOT setting the coffee temp measures only 140 degrees. Once I add creamer it's down to 130. That's barely warm. In just a few minutes I'm looking to nuke the cup in the microwave. On a lesser note, I miss the SS-700's blue LEDs shining up into the water reservoir, making it easier to see the current level. And did I mention the SS-10 holds 10% less water? On the plus side, the SS-10 is quieter than the SS-700, but who really cares?",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "The SS-10 is quieter than the SS-700.",
+          "Sentiment": "Positive",
+          "Token": ["SS-10", "SS-700"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "It feels and sounds like the mechanism is about to break. It feels flimsy.",
+          "Sentiment": "Negative",
+          "Token": ["feels", "sounds"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "The coffee temp measures only 140 degrees, barely warm. In just a few minutes I'm looking to nuke the cup in the microwave.",
+          "Sentiment": "Negative",
+          "Token": ["temp"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "35",
+      "ReviewText": "You get what you pay for. I purchased this several weeks ago. Overall, I'm content with the unit for the price. The previous reviews here on Amazon were accurate, so I won't repeat what's already been said. The main thing I'll add is that the door bounces back open if you close it with even moderate force. Multiple times I've come back to find that the door was ajar. I tested it to make sure - you have to close the door gently, so don't be in a hurry when you're grabbing a drink. I'm considering adding a couple of magnets to the door, but not sure if there's an easy way to do it. The noise level is also an issue, so take that into consideration before you purchase this unit. We have it in a room where the noise isn't a concern. I wouldn't want this in a living room or den, where the noise would be a distraction.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "I'm content with the unit for the price.",
+          "Sentiment": "Positive",
+          "Token": ["price"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "The door bounces back open if you close it with even moderate force. The noise level is also an issue.",
+          "Sentiment": "Negative",
+          "Token": ["door",  "noise level"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "36",
+      "ReviewText": "This ice machine is a lifesaver during hot summers! However, it is a bit noisy when operating, and the ice sometimes clumps together. But overall, it delivers quick ice and has been reliable during the heatwaves. It's compact enough to fit on my counter without taking too much space. Definitely a must-have for anyone who loves cold drinks and hosting parties!",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "This ice machine is a lifesaver during hot summers! It delivers quick ice and has been reliable during the heatwaves. It's compact enough to fit on my counter without taking too much space.",
+          "Sentiment": "Positive",
+          "Token": ["ice", "space"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "It is a bit noisy when operating, and the ice sometimes clumps together.",
+          "Sentiment": "Negative",
+          "Token": ["operating", "ice"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "37",
+      "ReviewText": "The dishwasher is great at cleaning dishes, but the cycle runs a bit long. I love the adjustable racks and the stainless steel interior which seems to help with drying. However, the length of the cycle can be inconvenient, especially when I need dishes quickly for guests.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "The dishwasher is great at cleaning dishes. I love the adjustable racks and the stainless steel interior which seems to help with drying.",
+          "Sentiment": "Positive",
+          "Token": ["dishes", "racks", "steel interior"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "The cycle runs a bit long, which can be inconvenient, especially when I need dishes quickly for guests.",
+          "Sentiment": "Negative",
+          "Token": ["cycle"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "38",
+      "ReviewText": "This new oven heats up quickly, which is a great improvement over my old model. The preheat function is particularly impressive. However, the fan is louder than I expected and can be heard in the next room, which is a bit of a letdown.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "The new oven heats up quickly, which is a great improvement over my old model. The preheat function is particularly impressive.",
+          "Sentiment": "Positive",
+          "Token": ["preheat"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "The fan is louder than I expected and can be heard in the next room, which is a bit of a letdown.",
+          "Sentiment": "Negative",
+          "Token": ["loud"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "39",
+      "ReviewText": "This toaster looks sleek and modern on my countertop, and it toasts bread evenly. However, the exterior gets too hot to touch after extended use, which can be a safety concern, especially with children around.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "This toaster looks sleek and modern on my countertop, and it toasts bread evenly.",
+          "Sentiment": "Positive",
+          "Token": ["toast", "looks"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, the exterior gets too hot to touch after extended use, which can be a safety concern, especially with children around.",
+          "Sentiment": "Negative",
+          "Token": ["exterior", "safety"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "40",
+      "ReviewText": "This vacuum cleaner has strong suction power and effectively picks up pet hair. However, the cord is a bit short, requiring me to frequently switch power outlets when cleaning larger rooms.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "This vacuum cleaner has strong suction power and effectively picks up pet hair.",
+          "Sentiment": "Positive",
+          "Token": ["vacuum cleaner", "suction power", "pet hair"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, the cord is a bit short, requiring me to frequently switch power outlets when cleaning larger rooms.",
+          "Sentiment": "Negative",
+          "Token": ["cord", "power outlets", "cleaning"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "41",
+      "ReviewText": "I bought this humidifier for my bedroom, and it works great at keeping the air moist. However, the tank is quite small, so it needs frequent refills, especially during dry seasons.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "I bought this humidifier for my bedroom, and it works great at keeping the air moist.",
+          "Sentiment": "Positive",
+          "Token": ["air"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, the tank is quite small, so it needs frequent refills, especially during dry seasons.",
+          "Sentiment": "Negative",
+          "Token": ["tank", "refills"]
+
+        }
+      ]
+    },
+    {
+      "ReviewID": "42",
+      "ReviewText": "The sound quality of these speakers is excellent, providing clear and crisp audio. However, the bass is lacking, which might disappoint those who enjoy deep, booming sound.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "The sound quality of these speakers is excellent, providing clear and crisp audio.",
+          "Sentiment": "Positive",
+          "Token": ["sound quality", "audio"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, the bass is lacking, which might disappoint those who enjoy deep, booming sound.",
+          "Sentiment": "Negative",
+          "Token": ["bass"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "43",
+      "ReviewText": "This blender is powerful and blends ingredients smoothly, making it perfect for smoothies and soups. However, it tends to be quite loud, which can be bothersome, especially when used early in the morning.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "This blender is powerful and blends ingredients smoothly, making it perfect for smoothies and soups.",
+          "Sentiment": "Positive",
+          "Token": ["blend"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, it tends to be quite loud, which can be bothersome, especially when used early in the morning.",
+          "Sentiment": "Negative",
+          "Token": ["loud"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "44",
+      "ReviewText": "These wireless earbuds offer great sound quality and a comfortable fit. However, the battery life is shorter than expected, and they tend to lose connection intermittently, which can be frustrating during workouts.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "These wireless earbuds offer great sound quality and a comfortable fit.",
+          "Sentiment": "Positive",
+          "Token": ["sound quality", "fit"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, the battery life is shorter than expected, and they tend to lose connection intermittently, which can be frustrating during workouts.",
+          "Sentiment": "Negative",
+          "Token": ["battery life", "connection"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "45",
+      "ReviewText": "This camera captures stunning photos with vibrant colors. However, the autofocus can be slow, especially in low-light conditions, which can result in missed shots.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "This camera captures stunning photos with vibrant colors.",
+          "Sentiment": "Positive",
+          "Token": ["colors", "photos"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, the autofocus can be slow, especially in low-light conditions, which can result in missed shots.",
+          "Sentiment": "Negative",
+          "Token": ["autofocus"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "46",
+      "ReviewText": "I was excited to try this new grill, but it was a letdown. The assembly instructions were confusing, and some parts didn't seem to fit together properly. After finally getting it assembled, the grill didn't heat evenly, and the food ended up charred in some areas and undercooked in others. I contacted customer support, and they were unhelpful, providing generic troubleshooting tips that didn't resolve the issue. Ultimately, I returned the grill and purchased a different model from another brand.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "2",
+          "SegmentText": "The assembly instructions were confusing, and some parts didn't seem to fit together properly. After finally getting it assembled, the grill didn't heat evenly, and the food ended up charred in some areas and undercooked in others.",
+          "Sentiment": "Negative",
+          "Token": ["instructions", "fit", "grill"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "I contacted customer support, and they were unhelpful, providing generic troubleshooting tips that didn't resolve the issue. Ultimately, I returned the grill and purchased a different model from another brand.",
+          "Sentiment": "Negative",
+          "Token": ["customer support"]
+        }
+      ]
+    },
+  
+    {
+      "ReviewID": "52",
+      "ReviewText": "Overall, I'm happy with this product. It fits my blender well and does a good job of blending my smoothies. However, I did notice that it's a bit louder than the original blender blade that came with my blender. It's not a dealbreaker for me, but it's something to consider if you're sensitive to noise.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "Overall, I'm happy with this product. It fits my blender well and does a good job of blending my smoothies.",
+          "Sentiment": "Positive",
+          "Token": ["functionality", "fitting"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "It's not a dealbreaker for me, but it's something to consider if you're sensitive to noise.",
+          "Sentiment": "Negative",
+          "Token": ["noise"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "53",
+      "ReviewText": "I bought this product hoping it would help me organize my closet, but it didn't work out as I had hoped. The hangers are flimsy and don't hold heavy clothes well. They also take up more space than I expected. I ended up returning them and looking for a sturdier solution.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "2",
+          "SegmentText": "The hangers are flimsy and don't hold heavy clothes well.",
+          "Sentiment": "Negative",
+          "Token": ["clothes"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "They also take up more space than I expected.",
+          "Sentiment": "Negative",
+          "Token": ["space"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "54",
+      "ReviewText": "I've been using this product for a few weeks now and it's been a game changer for my skin. I used to struggle with dry patches, especially during the winter months, but this moisturizer has really helped to keep my skin hydrated and smooth. Plus, it doesn't feel greasy or heavy on my skin.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "I've been using this product for a few weeks now and it's been a game changer for my skin.",
+          "Sentiment": "Positive",
+          "Token": ["skin"]
+        },
+        {
+          "SegmentID": "1",
+          "SegmentText": "I used to struggle with dry patches, especially during the winter months, but this moisturizer has really helped to keep my skin hydrated and smooth.",
+          "Sentiment": "Positive",
+          "Token": ["skin"]
+        },
+        {
+          "SegmentID": "1",
+          "SegmentText": "Plus, it doesn't feel greasy or heavy on my skin.",
+          "Sentiment": "Positive",
+          "Token": ["skin"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "55",
+      "ReviewText": "I'm not impressed with this vacuum cleaner. It's not very powerful and doesn't seem to pick up dirt and debris as well as my old vacuum. The attachments also feel flimsy and are difficult to attach securely. I wouldn't recommend this product.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "2",
+          "SegmentText": "It's not very powerful and doesn't seem to pick up dirt and debris as well as my old vacuum.",
+          "Sentiment": "Negative",
+          "Token": ["dirt"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "The attachments also feel flimsy and are difficult to attach securely.",
+          "Sentiment": "Negative",
+          "Token": ["attachment"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "56",
+      "ReviewText": "This coffee maker is a disappointment. It takes forever to brew a pot of coffee, and when it finally finishes, the coffee isn't even that hot. Plus, the carafe drips every time I pour a cup. I expected better quality from this brand.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "2",
+          "SegmentText": "It takes forever to brew a pot of coffee, and when it finally finishes, the coffee isn't even that hot.",
+          "Sentiment": "Negative",
+          "Token": ["forever", "coffee"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "Plus, the carafe drips every time I pour a cup.",
+          "Sentiment": "Negative",
+          "Token": ["drip"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "I expected better quality from this brand.",
+          "Sentiment": "Negative",
+          "Token": ["quality"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "57",
+      "ReviewText": "I was excited to try this new shampoo, but unfortunately, it didn't work well for me. It left my hair feeling greasy and weighed down, even after multiple washes. I also didn't care for the scent. I'll be sticking with my old shampoo.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "2",
+          "SegmentText": "It left my hair feeling greasy and weighed down, even after multiple washes.",
+          "Sentiment": "Negative",
+          "Token": ["hair"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "I also didn't care for the scent.",
+          "Sentiment": "Negative",
+          "Token": ["scent"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "58",
+      "ReviewText": "I love this electric kettle! It boils water quickly and is easy to use. The temperature control feature is great for making different types of tea, and the design looks sleek on my countertop. Highly recommend!",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "I love this electric kettle! It boils water quickly and is easy to use.",
+          "Sentiment": "Positive",
+          "Token": ["use", "boil"]
+        },
+        {
+          "SegmentID": "1",
+          "SegmentText": "The temperature control feature is great for making different types of tea, and the design looks sleek on my countertop.",
+          "Sentiment": "Positive",
+          "Token": ["feature", "design"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "59",
+      "ReviewText": "I'm disappointed with this phone case. It looked nice when I first got it, but it started to yellow after only a few weeks of use. It also doesn't provide much protection for my phone. I wouldn't purchase it again.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "2",
+          "SegmentText": "It started to yellow after only a few weeks of use.",
+          "Sentiment": "Negative",
+          "Token": ["use"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "It also doesn't provide much protection for my phone.",
+          "Sentiment": "Negative",
+          "Token": ["protection"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "60",
+      "ReviewText": "This microwave is fantastic! It heats food evenly and quickly, and the controls are intuitive to use. The stainless steel exterior is easy to clean and looks great in my kitchen. I highly recommend this model.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "This microwave is fantastic! It heats food evenly and quickly, and the controls are intuitive to use.",
+          "Sentiment": "Positive",
+          "Token": ["heats", "controls"]
+        },
+        {
+          "SegmentID": "1",
+          "SegmentText": "The stainless steel exterior is easy to clean and looks great in my kitchen.",
+          "Sentiment": "Positive",
+          "Token": ["looks", "exterior"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "61",
+      "ReviewText": "This desk chair is uncomfortable to sit in for long periods. The cushioning is too firm and doesn't provide enough support for my lower back. I wish I had spent a little more money on a better quality chair.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "2",
+          "SegmentText": "The cushioning is too firm and doesn't provide enough support for my lower back.",
+          "Sentiment": "Negative",
+          "Token": ["cushioining", "support"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "I wish I had spent a little more money on a better quality chair.",
+          "Sentiment": "Negative",
+          "Token": ["quality"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "62",
+      "ReviewText": "I'm very impressed with this air purifier. It's quiet, efficient, and has made a noticeable difference in the air quality of my home. I've noticed fewer allergy symptoms since using it. Plus, it's sleek and doesn't take up much space.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "I'm very impressed with this air purifier. It's quiet, efficient, and has made a noticeable difference in the air quality of my home.",
+          "Sentiment": "Positive",
+          "Token": ["air quality", "air purifier"]
+        },
+        {
+          "SegmentID": "1",
+          "SegmentText": "I've noticed fewer allergy symptoms since using it.",
+          "Sentiment": "Positive",
+          "Token": ["symptoms"]
+        },
+        {
+          "SegmentID": "1",
+          "SegmentText": "Plus, it's sleek and doesn't take up much space.",
+          "Sentiment": "Positive",
+          "Token": ["space"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "63",
+      "ReviewText": "I love these wireless headphones! The sound quality is excellent, and they're comfortable to wear for long periods. The battery life is impressive, and I appreciate the convenience of not having to deal with tangled cords. Highly recommend!",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "I love these wireless headphones! The sound quality is excellent, and they're comfortable to wear for long periods.",
+          "Sentiment": "Positive",
+          "Token": ["sound quality", "comfort"]
+        },
+        {
+          "SegmentID": "1",
+          "SegmentText": "The battery life is impressive, and I appreciate the convenience of not having to deal with tangled cords.",
+          "Sentiment": "Positive",
+          "Token": ["battery life", "convenience"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "64",
+      "ReviewText": "I purchased this vacuum cleaner after reading positive reviews online, but I've been disappointed with its performance. It doesn't pick up pet hair as well as I had hoped, and the suction power seems weak. The attachments also keep falling off during use, which is frustrating. I'm considering returning it.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "2",
+          "SegmentText": "It doesn't pick up pet hair as well as I had hoped, and the suction power seems weak.",
+          "Sentiment": "Negative",
+          "Token": ["suction power", "pet hair"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "The attachments also keep falling off during use, which is frustrating.",
+          "Sentiment": "Negative",
+          "Token": ["attachment"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "65",
+      "ReviewText": "I tried to dry 2 small items. It worked, but it took a lot longer than I thought it would, many hours. It also was too noisy to leave on in my hotel room while we were there (it sounds like a hair dryer), and I didn’t feel comfortable leaving it on while we left. So I would only turn it on for 20 minutes at a time. Also, the items you’re drying need to be super small to fit into the bag. If you’re good with that, it’s probably fine. I’m not thrilled with it, but it’s not terrible.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "It worked.",
+          "Sentiment": "Positive",
+          "Token": ["worked"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "It took a lot longer than I thought it would, many hours.",
+          "Sentiment": "Negative",
+          "Token": ["hours"]
+        },
+        {
+          "SegmentID": "3",
+          "SegmentText": "It also was too noisy to leave on in my hotel room while we were there (it sounds like a hair dryer).",
+          "Sentiment": "Negative",
+          "Token": ["sounds"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "66",
+      "ReviewText": "This little product seemed too good to be true because the first week it worked incredibly well. After that first week, it’s gradually starting to have issues such as the ice is melting in its tray. It’s in a cool area, it has proper ventilation, and my house is at a constant 69* with our AC unit, so there is no reason for this occurrence. The sensor light seems to be flickering now as well and we have to fidget with our machine to get it to begin making ice. We’ve had our product less than a month and were more than satisfied to begin with. It made me question how quickly some of the product reviews were written after their purchases because if I had reviewed the product within the first week, I would have given it 5 stars. Hope this helps!",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "The first week it worked incredibly well.",
+          "Sentiment": "Positive",
+          "Token": ["worked"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "It’s gradually starting to have issues such as the ice is melting in its tray.",
+          "Sentiment": "Negative",
+          "Token": ["ice", "tray"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "67",
+      "ReviewText": "I bought this for my Maytag Quiet Series 300. This model has 3 racks. This basket is a little large for the space set aside for the utensil basket on the middle shelf and it doesn't fit well over the spikes that are there to support it. I bought this because one of the reviews said it would fit my model “perfectly”. It does not. But, I liked the weight and sturdiness of the basket so I let the moveable spikes down flat and put the utensil basket at the far back left-hand corner. Fits okay and seems secure. I can live with it. That's why I give it 3 stars; I like the basket shape and construction, it's easy to load, holds lots of utensils but doesn't fit perfectly.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "I liked the weight and sturdiness of the basket.",
+          "Sentiment": "Positive",
+          "Token": ["basket"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "This basket is a little large for the space set aside for the utensil basket on the middle shelf and it doesn't fit well over the spikes that are there to support it.",
+          "Sentiment": "Negative",
+          "Token": ["basket", "space", "spikes"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "68",
+      "ReviewText": "This blender is powerful and can crush ice in seconds, which is great for my morning smoothie. However, it's incredibly loud, and the vibration causes it to move around on the counter.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "This blender is powerful and can crush ice in seconds, which is great for my morning smoothie.",
+          "Sentiment": "Positive",
+          "Token": ["blender", "ice"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, it's incredibly loud, and the vibration causes it to move around on the counter.",
+          "Sentiment": "Negative",
+          "Token": ["loud", "vibration"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "69",
+      "ReviewText": "I bought this to keep my teenager from doing constant midnight raids on the fridge. It does stick well. The wheels are a little fidigity to turn and the whole thing is just lightweight plastic. My son has a slight build and not strong at all. He forgot the lock was there and pulled and the plastic broke that holds the base of the wire and I got to see just how thin the plastic is. I bought another brand at the same time for the freezer and while it is also plastic, the quality seems better. So long story short, if you want to keep a little kid out it is probably fine but a semi determined early teen or older will get in even by accident.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "It does stick well.",
+          "Sentiment": "Positive",
+          "Token": ["stick"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "The wheels are a little fidigity to turn and the whole thing is just lightweight plastic.",
+          "Sentiment": "Negative",
+          "Token": ["wheels", "plastic"]
+        },
+        {
+          "SegmentID": "3",
+          "SegmentText": "He forgot the lock was there and pulled and the plastic broke that holds the base of the wire and I got to see just how thin the plastic is.",
+          "Sentiment": "Negative",
+          "Token": ["lock", "plastic"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "70",
+      "ReviewText": "I've been using this coffee maker for a few weeks now and I'm pretty satisfied with it. It brews coffee quickly and the carafe keeps it warm for a decent amount of time. However, the design could be improved. The lid doesn't open wide enough, making it difficult to fill the water reservoir without spilling. Also, the buttons are a bit finicky and sometimes require multiple presses to register.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "It brews coffee quickly and the carafe keeps it warm for a decent amount of time.",
+          "Sentiment": "Positive",
+          "Token": ["coffee", "carafe", "time"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, the design could be improved. The lid doesn't open wide enough, making it difficult to fill the water reservoir without spilling.",
+          "Sentiment": "Negative",
+          "Token": ["design", "lid"]
+        },
+        {
+          "SegmentID": "3",
+          "SegmentText": "Also, the buttons are a bit finicky and sometimes require multiple presses to register.",
+          "Sentiment": "Negative",
+          "Token": ["buttons"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "71",
+      "ReviewText": "This vacuum cleaner has great suction power and works well on both hardwood floors and carpets. However, it's quite heavy and difficult to maneuver around furniture.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "This vacuum cleaner has great suction power and works well on both hardwood floors and carpets.",
+          "Sentiment": "Positive",
+          "Token": ["vacuum", "suction power"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, it's quite heavy and difficult to maneuver around furniture.",
+          "Sentiment": "Negative",
+          "Token": ["heavy", "difficult"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "72",
+      "ReviewText": "I purchased this toaster a few months ago and have been using it daily. It toasts bread evenly and quickly, which I love. However, the exterior gets very hot during use, which can be a safety concern, especially if you have small children around.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "It toasts bread evenly and quickly, which I love.",
+          "Sentiment": "Positive",
+          "Token": ["toasts"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, the exterior gets very hot during use, which can be a safety concern, especially if you have small children around.",
+          "Sentiment": "Negative",
+          "Token": ["exterior", "safety"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "73",
+      "ReviewText": "I've had this electric kettle for a few months now and it's been great. It boils water quickly and is easy to clean. However, the lid feels a bit flimsy and sometimes doesn't close properly.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "It boils water quickly and is easy to clean.",
+          "Sentiment": "Positive",
+          "Token": ["boils", "clean"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, the lid feels a bit flimsy and sometimes doesn't close properly.",
+          "Sentiment": "Negative",
+          "Token": ["lid"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "74",
+      "ReviewText": "I bought this fitness tracker a month ago and it's been fantastic for keeping me motivated to exercise. The app is easy to use and provides insightful data. However, the battery life is disappointing as it needs to be charged every other day.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "It's been fantastic for keeping me motivated to exercise. The app is easy to use and provides insightful data.",
+          "Sentiment": "Positive",
+          "Token": ["exercise", "app"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, the battery life is disappointing as it needs to be charged every other day.",
+          "Sentiment": "Negative",
+          "Token": ["battery life"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "75",
+      "ReviewText": "This grill is perfect for small gatherings. It heats up quickly and cooks evenly. However, the grease tray is a bit flimsy and tends to warp after a few uses.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "It heats up quickly and cooks evenly.",
+          "Sentiment": "Positive",
+          "Token": ["heats up"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, the grease tray is a bit flimsy and tends to warp after a few uses.",
+          "Sentiment": "Negative",
+          "Token": ["grease tray", "uses"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "76",
+      "ReviewText": "This camera takes stunning photos and is very easy to use, even for beginners. However, the battery life is quite short, so I recommend carrying extra batteries.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "This camera takes stunning photos and is very easy to use, even for beginners.",
+          "Sentiment": "Positive",
+          "Token": ["camera", "photos", "use"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, the battery life is quite short, so I recommend carrying extra batteries.",
+          "Sentiment": "Negative",
+          "Token": ["battery life"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "77",
+      "ReviewText": "I purchased this laptop a few weeks ago and it's been great so far. It's fast and reliable, and the battery life is impressive. However, the trackpad feels a bit flimsy and doesn't always register clicks properly.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "It's fast and reliable, and the battery life is impressive.",
+          "Sentiment": "Positive",
+          "Token": ["battery life"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, the trackpad feels a bit flimsy and doesn't always register clicks properly.",
+          "Sentiment": "Negative",
+          "Token": ["trackpad", "clicks"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "78",
+      "ReviewText": "This air purifier works well and has made a noticeable difference in the air quality of my home. However, it's a bit noisy, especially on higher settings.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "This air purifier works well and has made a noticeable difference in the air quality of my home.",
+          "Sentiment": "Positive",
+          "Token": ["air purifier", "air quality"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, it's a bit noisy, especially on higher settings.",
+          "Sentiment": "Negative",
+          "Token": ["noisy"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "79",
+      "ReviewText": "This baby monitor has been a lifesaver since we brought our newborn home. The video quality is excellent and the night vision feature works well. However, the battery life could be better as it needs to be recharged frequently.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "The video quality is excellent and the night vision feature works well.",
+          "Sentiment": "Positive",
+          "Token": ["video quality", "night vision"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, the battery life could be better as it needs to be recharged frequently.",
+          "Sentiment": "Negative",
+          "Token": ["battery life"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "80",
+      "ReviewText": "I bought this blender a month ago and have been using it daily for smoothies. It blends ingredients well and is easy to clean. However, the lid sometimes leaks if not secured tightly.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "It blends ingredients well and is easy to clean.",
+          "Sentiment": "Positive",
+          "Token": ["blends", "clean"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, the lid sometimes leaks if not secured tightly.",
+          "Sentiment": "Negative",
+          "Token": ["lid"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "81",
+      "ReviewText": "I bought this toaster oven a few weeks ago and it's been a great addition to my kitchen. It cooks food evenly and has a variety of useful settings. However, the exterior gets very hot during use, so caution is needed.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "It cooks food evenly and has a variety of useful settings.",
+          "Sentiment": "Positive",
+          "Token": ["cooks", "settings"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, the exterior gets very hot during use, so caution is needed.",
+          "Sentiment": "Negative",
+          "Token": ["exterior"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "82",
+      "ReviewText": "I've been using this vacuum cleaner for a few months now and I'm quite impressed with its performance. It has strong suction and effectively picks up pet hair. However, the cord is a bit short, so I need to switch outlets frequently.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "It has strong suction and effectively picks up pet hair.",
+          "Sentiment": "Positive",
+          "Token": ["suction", "pet hair"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, the cord is a bit short, so I need to switch outlets frequently.",
+          "Sentiment": "Negative",
+          "Token": ["cord","outlets"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "83",
+      "ReviewText": "This microwave is a great addition to our kitchen. It heats food quickly and has a spacious interior. However, the control panel can be a bit confusing to use at first.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "It heats food quickly and has a spacious interior.",
+          "Sentiment": "Positive",
+          "Token": ["heats", "interior"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, the control panel can be a bit confusing to use at first.",
+          "Sentiment": "Negative",
+          "Token": ["control panel"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "84",
+      "ReviewText": "I bought this rice cooker last month and I'm satisfied with its performance so far. It cooks rice perfectly and is easy to clean. However, the exterior gets quite hot during use.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "It cooks rice perfectly and is easy to clean.",
+          "Sentiment": "Positive",
+          "Token": ["cooks", "clean"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, the exterior gets quite hot during use.",
+          "Sentiment": "Negative",
+          "Token": ["exterior"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "85",
+      "ReviewText": "This food processor has been a game-changer in my kitchen. It's powerful and makes meal prep much quicker. However, it's quite loud, so I can't use it early in the morning or late at night.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "It's powerful and makes meal prep much quicker.",
+          "Sentiment": "Positive",
+          "Token": ["meal prep"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, it's quite loud, so I can't use it early in the morning or late at night.",
+          "Sentiment": "Negative",
+          "Token": ["loud"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "86",
+      "ReviewText": "I bought this juicer a month ago and it's been a fantastic addition to my morning routine. It juices fruits and vegetables quickly and is easy to clean. However, it's quite noisy, so I try not to use it early in the morning.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "It juices fruits and vegetables quickly and is easy to clean.",
+          "Sentiment": "Positive",
+          "Token": ["juices", "clean"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, it's quite noisy, so I try not to use it early in the morning.",
+          "Sentiment": "Negative",
+          "Token": ["noisy", "use"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "87",
+      "ReviewText": "This sewing machine is perfect for beginners like me. It's easy to set up and use, and the instructional DVD was very helpful. However, the thread tension can be a bit finicky at times.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "It's easy to set up and use, and the instructional DVD was very helpful.",
+          "Sentiment": "Positive",
+          "Token": ["set up", "use", "DVD"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, the thread tension can be a bit finicky at times.",
+          "Sentiment": "Negative",
+          "Token": ["thread tension"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "88",
+      "ReviewText": "This is a good replacement for the oven knob for my older Kenmore model 911-6118810 range. Seems like they discontinued making the oven knob for this range but they still make the stove knobs. Oven knobs are a bit more important then stove knobs since when you're baking you really need to know the temperature setting. I have an older 1990 Kenmore and the numbers on the oven knob eventually wipe off over the years. One of the other commenters said that you need to have a D-Style stem that is 3/8 inches wide and that is what I have so this fit. Most important thing is where the Broil word is and which way the numbers go. This is as close as i can get. So it seems to work and is close enough.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "This is a good replacement for the oven knob for my older Kenmore model 911-6118810 range.",
+          "Sentiment": "Positive",
+          "Token": ["oven knob"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "One of the other commenters said that you need to have a D-Style stem that is 3/8 inches wide and that is what I have so this fit.",
+          "Sentiment": "Positive",
+          "Token": ["stem"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "89",
+      "ReviewText": "I didn't see anywhere on here that it said 2 pack. I see 2 in the picture but that doesn't mean anything to most of these companies, they would say that it's whatever the title says. Title doesn't say 2pk and product description doesn't say 2 pk. I just noticed under the small technical details it says quantity is 2 but since there is not much there I must have scrolled right over it several times. Would have been nice to save some money to buy just what I needed. Also shipping was kinda strange. I didn't get my product until 4 days after the estimate delivery date. Shipping label looks like it was printed but not delivered to the P.O. until a couple days later. Label on the box said priority mail but on usps site it says 2 day priority mail so I don't know. That is why i won't give it 5 stars. The product itself is fine though.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "2",
+          "SegmentText": "I just noticed under the small technical details it says quantity is 2 but since there is not much there I must have scrolled right over it several times. Would have been nice to save some money to buy just what I needed.",
+          "Sentiment": "Negative",
+          "Token": ["quantity", "money"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "I didn't get my product until 4 days after the estimate delivery date. Shipping label looks like it was printed but not delivered to the P.O. until a couple days later.",
+          "Sentiment": "Negative",
+          "Token": ["shipping"]
+        },
+        {
+          "SegmentID": "1",
+          "SegmentText": "The product itself is fine though.",
+          "Sentiment": "Positive",
+          "Token": ["product"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "90",
+      "ReviewText": "Spent a few hour on the prep and install to replace an old kenmore unit. Well now I think the Kenmore unit may have performed better, but looked worn out and had no style. This Broan unit ships prepped for non vented set up. The change over to vented was easy, and the mounting was typical for a replacement - nothing is as easy as you plan. Ha! But the 1st time I tested the vent fan I noticed it is spilling a lot of air out the non vent port on top of the unit. It should not be doing this at all!!!! I took it apart and tried to reseal the plastic device that is supposed to block off the non vent port - I found the plastic blocking device was seated properly. Put it back together and its only a bit better - still spilling air out the non vent port that should be totally blocked off. The seal of the plastic duct for non-vented application must not be seated properly against the weather stripping on the underside of the hood top. I guess I will have to disassemble again, and tape off the dang vent openings permanently with aluminum duct tape from the inside of the hood. Poor design - I say this unit is built for non-vented applications first. I would have paid a bit more $$ for a unit that was dedicated to ducted ventilation only, though it would be cheaper for Broan to produce a unit without the non-venting plastic duct and punched vent holes in the top of the hood.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "The change over to vented was easy, and the mounting was typical for a replacement - nothing is as easy as you plan.",
+          "Sentiment": "Positive",
+          "Token": ["change", "mounting"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "But the 1st time I tested the vent fan I noticed it is spilling a lot of air out the non vent port on top of the unit. It should not be doing this at all!!!! I took it apart and tried to reseal the plastic device that is supposed to block off the non vent port - I found the plastic blocking device was seated properly. Put it back together and its only a bit better - still spilling air out the non vent port that should be totally blocked off.",
+          "Sentiment": "Negative",
+          "Token": ["vent fan", "plastic device"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "91",
+      "ReviewText": "The screws that retain each of the four rollers ripped out of the nylon roller stubs after a few weeks of use. Fortunately the centers of the stubs can be drilled to accept a bolt that will pass completely thru and a nut can then be used to retain them. This will be an easy and permanent fix, but it is disappointing to have to repair new parts. Also, the Instructional pictures were poor and I needed to watch an online video to see how the parts were supposed to be assembled.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "2",
+          "SegmentText": "The screws that retain each of the four rollers ripped out of the nylon roller stubs after a few weeks of use.",
+          "Sentiment": "Negative",
+          "Token": ["screws", "rollers"]
+        },
+        {
+          "SegmentID": "1",
+          "SegmentText": "The centers of the stubs can be drilled to accept a bolt that will pass completely thru and a nut can then be used to retain them. This will be an easy and permanent fix.",
+          "Sentiment": "Positive",
+          "Token": ["stubs", "fix"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "It is disappointing to have to repair new parts.",
+          "Sentiment": "Negative",
+          "Token": ["parts"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "92",
+      "ReviewText": "Filtered coffee is not as clean compared with using paper filter. (I use medium grain) On the other hand, I can't tell the difference in taste between this and the paper filter. And it is more inconvenient to use as I have to remember not to pop it into the trash can. Overall, if you are not concerned of the less environmental impact this has, it's not quite worth it.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "2",
+          "SegmentText": "Filtered coffee is not as clean compared with using paper filter.",
+          "Sentiment": "Negative",
+          "Token": ["Filtered coffee"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "It is more inconvenient to use as I have to remember not to pop it into the trash can.",
+          "Sentiment": "Negative",
+          "Token": ["use"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "93",
+      "ReviewText": "I have a small French press and no matter what I do, I always get sediment at the bottom of the press and my cup, and floating in the coffee itself. So I decided to try these bags and use them like a tea-bag in the press. While they do cut down on sediment, I still get some, but not nearly as much. The coffee is less \"muddy\" tasting. I do find that I need to use an extra scoop of coffee with this technique, though. I suggest adding the coffee to the bag, then tying a knot in the string to make the \"bag\" smaller. This also cuts down on escaping grounds. Cleanup is SO much better when using these bags, by the way. Ideally, a smaller size and lower price would be nice. But until I can find some like that, I will probably keep using these.",
+      "overallSentiment": "Positive",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "While they do cut down on sediment, I still get some, but not nearly as much. The coffee is less \"muddy\" tasting.",
+          "Sentiment": "Positive",
+          "Token": ["tasting", "sediment"]
+        },
+        {
+          "SegmentID": "1",
+          "SegmentText": "Cleanup is SO much better when using these bags, by the way.",
+          "Sentiment": "Positive",
+          "Token": ["Cleanup"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "Ideally, a smaller size and lower price would be nice",
+          "Sentiment": "Negative",
+          "Token": ["size", "price"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "94",
+      "ReviewText": "The filters work, no question, and the resulting coffee is fine. But - the paper they use is very stiff, and as a result the filtering process is much slower than with other filters, perhaps twice as long. For me, that's a real negative. And then there's that passive-aggressive brand name ('If you care, you'll buy our product. If you don't - well, fine, go ahead and be a jerk. We always thought you were a jerk anyway. Thanks for confirming our impression.') I'm going back to Melitta.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "The filters work, no question, and the resulting coffee is fine.",
+          "Sentiment": "Positive",
+          "Token": ["filters", "coffee"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "But - the paper they use is very stiff, and as a result the filtering process is much slower than with other filters, perhaps twice as long",
+          "Sentiment": "Negative",
+          "Token": ["paper", "filtering process"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "And then there's that passive-aggressive brand name ('If you care, you'll buy our product. If you don't - well, fine, go ahead and be a jerk. We always thought you were a jerk anyway. Thanks for confirming our impression.') I'm going back to Melitta.",
+          "Sentiment": "Negative",
+          "Token": ["brand name"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "95",
+      "ReviewText": "I was able to use this replacement however it arrived bended in different places so I got online and requested a return and reorder a second one hoping the second one would be packed in a box instead of a flimsy plastic bag. The second one arrived more bended than the first one, it is made very flimsy I which they made this as sturdy as the original Replacement lens and filter. I ended up keeping the first Replacement as the second one was in worst condition (very bended). I kept it because I haven't been able to find a sturdier Replacement that could fit our hood. This item should be packed in a box to avoid getting bended.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "2",
+          "SegmentText": "I was able to use this replacement however it arrived bended in different places so I got online and requested a return and reorder a second one hoping the second one would be packed in a box instead of a flimsy plastic bag.",
+          "Sentiment": "Negative",
+          "Token": ["bended", "plastic bag"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "The second one arrived more bended than the first one, it is made very flimsy I which they made this as sturdy as the original Replacement lens and filter.",
+          "Sentiment": "Negative",
+          "Token": ["bended", "lens", "filters"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "I ended up keeping the first Replacement as the second one was in worst condition (very bended).",
+          "Sentiment": "Negative",
+          "Token": [ "condition"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "96",
+      "ReviewText": "I really appreciate the convenience of this pump. I can place the water bottle in a cabinet instead of having a big dispenser out in my kitchen. However, it stopped charging already. I bought it in July 2022 and it's now March 2023. It's worth it and I will buy another one. It's just a bummer that it broke already.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "I really appreciate the convenience of this pump. I can place the water bottle in a cabinet instead of having a big dispenser out in my kitchen.",
+          "Sentiment": "Positive",
+          "Token": ["pump", "water bottle"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "However, it stopped charging already. I bought it in July 2022 and it's now March 2023. It's just a bummer that it broke already.",
+          "Sentiment": "Negative",
+          "Token": ["broke"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "97",
+      "ReviewText": "Ice maker works. It is problematic. Since installing it late September, it has frozen up and had to be removed. The entire enclosure was solid ice. I don't think it is a 100% correct fit for my older fridge. My model was an A. This icemaker is a newer model. I would love to exchange it but I do not think I have recourse.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "Ice maker works.",
+          "Sentiment": "Positive",
+          "Token": ["Ice maker"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "Since installing it late September, it has frozen up and had to be removed. The entire enclosure was solid ice.",
+          "Sentiment": "Negative",
+          "Token": ["enclosure", "ice"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "98",
+      "ReviewText": "I really want this to work. I don't know what I am doing wrong, but I get tons of grounds in the coffee cup. I am using Starbucks pre-ground coffee. I have tried this a lot of times always with the same result. Help! I have had to strain the coffee after it brews just to get the grounds out.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "2",
+          "SegmentText": "I get tons of grounds in the coffee cup.",
+          "Sentiment": "Negative",
+          "Token": ["coffee cup"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "I am using Starbucks pre-ground coffee. I have tried this a lot of times always with the same result.",
+          "Sentiment": "Negative",
+          "Token": ["Starbucks", "coffee"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "Help! I have had to strain the coffee after it brews just to get the grounds out.",
+          "Sentiment": "Negative",
+          "Token": ["coffee","grounds"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "99",
+      "ReviewText": "It worked decently at first. But after several months, it can no longer produce ice. At this point its just eating up electricity to turn water into slightly colder water. A huge waste of money. Edit 5/5/22 They worked with me and provided a full refund for the order. They even provided a way to troubleshoot the machine, but unfortunately I already threw it out by then. Good customer service.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "1",
+          "SegmentText": "It worked decently at first.",
+          "Sentiment": "Positive",
+          "Token": ["worked"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "At this point its just eating up electricity to turn water into slightly colder water. A huge waste of money.",
+          "Sentiment": "Negative",
+          "Token": ["electricity", "water", "money"]
+        },
+        {
+          "SegmentID": "1",
+          "SegmentText": "They worked with me and provided a full refund for the order. They even provided a way to troubleshoot the machine, but unfortunately I already threw it out by then. Good customer service.",
+          "Sentiment": "Positive",
+          "Token": ["customer service"]
+        }
+      ]
+    },
+    {
+      "ReviewID": "100",
+      "ReviewText": "I recently purchased a Keurig and had a lot of coffee left from my old drip brew machine. I purchased the Eco-Fill pods in order to use up that coffee. They are accomplishing that but I will not continue using them after the coffee is gone due to the design. The lids do not stay closed during the brewing process. Sometimes you end up with coffee grounds in the bottom of your cup or under the pod. I have tried several different methods of making the lids stay closed but so far, I haven't found a foolproof solution.",
+      "overallSentiment": "Negative",
+      "Segments": [
+        {
+          "SegmentID": "2",
+          "SegmentText": "The lids do not stay closed during the brewing process. Sometimes you end up with coffee grounds in the bottom of your cup or under the pod.",
+          "Sentiment": "Negative",
+          "Token": ["lids", "coffee grounds"]
+        },
+        {
+          "SegmentID": "2",
+          "SegmentText": "I have tried several different methods of making the lids stay closed but so far, I haven't found a foolproof solution.",
+          "Sentiment": "Negative",
+          "Token": ["lids"]
+        }
+      ]
+    }
+]
