@@ -1,4 +1,6 @@
 import re
+import time
+
 from transformers import BartTokenizer, BartForConditionalGeneration
 import google.generativeai as genai
 import json
@@ -92,13 +94,17 @@ class Gemini:
         if bart:
             summary = self.summarize_bart(text)
         else:
+            time.sleep(1)
             summary = self.summarize_gemini(text)
         sentences = self.split_sentences(summary)
         positive = []
         negative = []
         for sentence in sentences:
             response = self.get_keywords(sentence)
-            response = json.loads(response)
+            try:
+                response = json.loads(response)
+            except:
+                continue
             if response["sentiment"] == "positive":
                 positive.extend(response["keywords"])
             else:
