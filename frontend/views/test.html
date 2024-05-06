@@ -20,10 +20,10 @@
             </div>
             <div class="review-sections">
                 <div id="positiveKeywords" class="review-column positive">
-                    <h3>Positive Reviews</h3>
+                    <h3>Positive Reviews Keywords</h3>
                 </div>
                 <div id="negativeKeywords" class="review-column negative">
-                    <h3>Negative Reviews</h3>
+                    <h3>Negative Reviews Keywords</h3>
                 </div>
             </div>
         </div>
@@ -69,7 +69,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function updateKeywordsUI(keywords, elementId) {
         const container = document.getElementById(elementId);
-        container.innerHTML = `<h3>${elementId.replace('Keywords', ' Reviews')}</h3>`; // Reset the innerHTML
+        // Use fixed headings instead of deriving them dynamically
+        let headingText = '';
+        if (elementId === 'positiveKeywords') {
+            headingText = 'Positive Reviews Keywords';
+        } else if (elementId === 'negativeKeywords') {
+            headingText = 'Negative Reviews Keywords';
+        }
+        container.innerHTML = `<h3>${headingText}</h3>`; // Reset the innerHTML with correct casing
         keywords.slice(0, 10).forEach(kw => { // Only show top 10 keywords
             const p = document.createElement('p');
             p.textContent = `${kw.keyword} - ${kw.count}`;

@@ -6,14 +6,15 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 150vh;
 }
 
 .container {
-    width: 60%; /* Reduced width for a more compact design */
+    width: 95%; /* Increased width for a broader layout */
     background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     padding: 20px;
+    border-radius: 8px; /* Rounded corners for modern look */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,21 +30,22 @@ body, html {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
     padding: 20px 0;
 }
 
 .review-column {
     flex: 1;
-    padding: 0 100px; /* Increased padding for better spacing */
+    padding: 0 40px; /* Adjusted padding for better spacing */
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    align-items: center; /* Centering content within columns */
 }
 
 .review-form {
-    width: 100%;
+    width: 100%; /* Full width to align with the container */
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -51,50 +53,57 @@ body, html {
 }
 
 .review-form textarea {
-    width: 100%; /* Textarea fills the width of the form */
+    width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     resize: none;
-    height: 100px; /* Fixed height for the textarea */
+    height: 150px; /* More space for text */
+    border-radius: 5px; /* Rounded corners for textarea */
 }
 
 .review-form button {
-    width: auto; /* Auto width for the button */
+    width: auto;
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #0056b3;
     color: white;
     border: none;
+    border-radius: 5px; /* Rounded corners for button */
     cursor: pointer;
     margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.review-form button:hover {
+    background-color: #004494;
 }
 
 h2, h3 {
-    width: 100%; /* Ensures headings are full width */
-    text-align: center; /* Centers heading text */
+    color: #333;
+    margin: 0;
+    padding-bottom: 10px;
 }
 
 ul {
-    list-style-type: none; /* Removes bullet points */
-    padding: 0; /* Removes padding */
-    margin: 0; /* Removes margins */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
 li {
-    padding: 2px 0; /* Adds vertical padding for list items */
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
 }
 
-/* Additional styles to visually separate the sections */
-.positive {
-    border-right: 1px solid #ccc;
-}
-
-.negative {
-    border-left: 1px solid #ccc;
+/* Styles for review sections */
+.positive, .negative {
+    width: 50%; /* Adjusted for better text fit */
+    text-align: center; /* Centers text */
 }
 
 #totalReviews {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
-    color: #333; /* Example color */
+    color: #333;
     margin-bottom: 20px;
 }
