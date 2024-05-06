@@ -77,7 +77,7 @@ class Gemini:
         Here is the review you need to analyze: {text}"""
 
         response = self.model.generate_content(prompt)
-        return response.text
+        return response.text.lower()
 
     def sentiment_detect(self, text):
         prompt = f"""I want you to detect the sentiment of a review of a product.
@@ -87,7 +87,7 @@ class Gemini:
         Here is the review you need to detect: {text}"""
 
         response = self.model.generate_content(prompt)
-        return response.text
+        return response.text.lower()
 
 
     def analyze_review(self, text, bart=False):

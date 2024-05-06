@@ -19,9 +19,12 @@ def index():
 @app.route('/get_keywords')
 def get_keywords():
     total_reviews = db.reviews.count_documents({})
+    positive_reviews_count = db.reviews.count_documents({'sentiment': 'positive'})
+    negative_reviews_count = db.reviews.count_documents({'sentiment': 'negative'})
     positive = list(db.positive_keywords.find({}, {'_id': 0, 'keyword': 1, 'count': 1}).sort('count', -1).limit(10))
     negative = list(db.negative_keywords.find({}, {'_id': 0, 'keyword': 1, 'count': 1}).sort('count', -1).limit(10))
-    return jsonify({'total': total_reviews, 'positive': positive, 'negative': negative})
+    return jsonify({'total': total_reviews, 'positive': positive, 'negative': negative,
+                    'positive_reviews_count': positive_reviews_count, 'negative_reviews_count': negative_reviews_count})
 
 
 @app.route('/submit-review', methods=['POST'])
@@ -36,7 +39,7 @@ def submit_review():
     update_keywords('negative', negative_keywords)
 
     # Insert the review itself
-    sentiment = 'positive' if len(positive_keywords) > len(negative_keywords) else 'negative'
+    sentiment = gemini.sentiment_detect(review_text)
     update_reviews(review_text, sentiment)
 
     return jsonify({"status": "success", "message": "Review processed"})
