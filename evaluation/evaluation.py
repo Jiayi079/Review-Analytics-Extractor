@@ -1,5 +1,5 @@
 import json
-
+import numpy as np
 import sys
 import os
 
@@ -77,12 +77,13 @@ def calculate_metrics(dataset, model):
     overall_recall = (recall_positive + recall_negative) / 2
     overall_f1_score = (f1_score_positive + f1_score_negative) / 2
 
-    return precision_positive, recall_positive, f1_score_positive, precision_negative, recall_negative, f1_score_negative, overall_precision, overall_recall, overall_f1_score
+    confusion_matrix = np.array([[TP_positive, FP_negative], [FN_positive, TP_negative]])
+
+    return precision_positive, recall_positive, f1_score_positive, precision_negative, recall_negative, f1_score_negative, overall_precision, overall_recall, overall_f1_score, confusion_matrix
 
 
 model = Traditional()
-precision_positive, recall_positive, f1_score_positive, precision_negative, recall_negative, f1_score_negative, overall_precision, overall_recall, overall_f1_score = calculate_metrics(
-    dataset, model)
+precision_positive, recall_positive, f1_score_positive, precision_negative, recall_negative, f1_score_negative, overall_precision, overall_recall, overall_f1_score, confusion_matrix = calculate_metrics(dataset, model)
 print("Positive Tokens:")
 print("Precision:", precision_positive)
 print("Recall:", recall_positive)
@@ -95,3 +96,5 @@ print("\nOverall Metrics:")
 print("Overall Precision:", overall_precision)
 print("Overall Recall:", overall_recall)
 print("Overall F1-score:", overall_f1_score)
+print("\nConfusion Matrix:")
+print(confusion_matrix)
