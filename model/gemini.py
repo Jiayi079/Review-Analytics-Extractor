@@ -5,7 +5,7 @@ from transformers import BartTokenizer, BartForConditionalGeneration
 import google.generativeai as genai
 import json
 
-key = "YOUR_API_KEY"
+key = ""
 
 
 class Gemini:

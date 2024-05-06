@@ -91,3 +91,10 @@ li {
 .negative {
     border-left: 1px solid #ccc;
 }
+
+#totalReviews {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333; /* Example color */
+    margin-bottom: 20px;
+}

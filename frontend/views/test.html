@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Product Review Page</title>
-<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
 <div class="container">
@@ -16,7 +16,7 @@
     <main>
         <div class="reviews">
             <div id="totalReviews" class="reviews-header">
-                <h2>Total Reviews: xxxx</h2>
+                <h2>Total Reviews: <span id="totalReviewCount">xxxx</span></h2>
             </div>
             <div class="review-sections">
                 <div id="positiveKeywords" class="review-column positive">
@@ -60,23 +60,20 @@ document.addEventListener('DOMContentLoaded', function() {
         fetch('/get_keywords')
         .then(response => response.json())
         .then(data => {
-            const positiveKeywords = document.getElementById('positiveKeywords');
-            const negativeKeywords = document.getElementById('negativeKeywords');
+            document.getElementById('totalReviewCount').innerText = data.total;
+            updateKeywordsUI(data.positive, 'positiveKeywords');
+            updateKeywordsUI(data.negative, 'negativeKeywords');
+        })
+        .catch(error => console.error('Error loading keywords:', error));
+    }
 
-            positiveKeywords.innerHTML = '<h3>Positive Reviews</h3>';
-            negativeKeywords.innerHTML = '<h3>Negative Reviews</h3>';
-
-            data.positive.forEach(item => {
-                const p = document.createElement('p');
-                p.textContent = `${item.keyword} - ${item.count}`;
-                positiveKeywords.appendChild(p);
-            });
-
-            data.negative.forEach(item => {
-                const p = document.createElement('p');
-                p.textContent = `${item.keyword} - ${item.count}`;
-                negativeKeywords.appendChild(p);
-            });
+    function updateKeywordsUI(keywords, elementId) {
+        const container = document.getElementById(elementId);
+        container.innerHTML = `<h3>${elementId.replace('Keywords', ' Reviews')}</h3>`; // Reset the innerHTML
+        keywords.slice(0, 10).forEach(kw => { // Only show top 10 keywords
+            const p = document.createElement('p');
+            p.textContent = `${kw.keyword} - ${kw.count}`;
+            container.appendChild(p);
         });
     }
 });
