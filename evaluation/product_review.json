@@ -1025,6 +1025,108 @@
         }
       ]
     },
+  {
+      "ReviewID": "47",
+      "ReviewText": "The product is excellent, showing high-quality craftsmanship and impressive features. However, I was disappointed by the shipping duration which was considerably longer than expected.",
+      "Segments": [
+          {
+              "SegmentID": "1",
+              "SegmentText": "The product is excellent, showing high-quality craftsmanship and impressive features.",
+              "Sentiment": "Positive",
+              "Token": ["craftsmanship", "features"]
+          },
+          {
+              "SegmentID": "2",
+              "SegmentText": "However, I was disappointed by the shipping duration which was considerably longer than expected.",
+              "Sentiment": "Negative",
+              "Token": ["shipping"]
+          }
+      ]
+  },
+  {
+      "ReviewID": "48",
+      "ReviewText": "These look like nice tweezers, similar in look to tweezerman tweezers but for some reason they dont grip hairs very well and are very annoying for me. They seem to match up perfectly at the end so not sure why they dont grab well. Will use as backups or keep in purse or car",
+      "Segments": [
+          {
+              "SegmentID": "1",
+              "SegmentText": "These look like nice tweezers",
+              "Sentiment": "Positive",
+              "Token": ["tweezers"]
+          },
+          {
+              "SegmentID": "2",
+              "SegmentText": "for some reason they dont grip hairs very well and are very annoying for me",
+              "Sentiment": "Negative",
+              "Token": ["grip hairs"]
+          },
+          {
+            "SegmentID": "1",
+            "SegmentText": "They seem to match up perfectly at the end",
+            "Sentiment": "Positive",
+            "Token": ["match up"]
+        }
+      ]
+  },
+  {
+      "ReviewID": "49",
+      "ReviewText": "I wish I loved this. This is a nicely packaged perfume in an attractive bottle with a gold-colored tassel hanging from the side. The scent is neither offensive nor enticing. I can't even describe what it smells like. It is so very subtle but it lasts a few hours.The current price of $44.99 ($49.99 minus $5) is competitively priced for perfume like this but it is not one I would order again as I have to really love it to pay that much.",
+      "Segments": [
+          {
+              "SegmentID": "1",
+              "SegmentText": "This is a nicely packaged perfume in an attractive bottle with a gold-colored tassel hanging from the side.",
+              "Sentiment": "Positive",
+              "Token": ["perfume", "bottle", "tassel"]
+          },
+          {
+              "SegmentID": "1",
+              "SegmentText": "The scent is neither offensive nor enticing.",
+              "Sentiment": "Positive",
+              "Token": ["scent"]
+          },
+          {
+              "SegmentID": "2",
+              "SegmentText": "The current price of $44.99 ($49.99 minus $5) is competitively priced for perfume like this",
+              "Sentiment": "Negative",
+              "Token": ["price"]
+          }
+      ]
+  },
+  {
+      "ReviewID": "50",
+      "ReviewText": "These shower caps are really attractive in the style I ordered them in. The only issue I have is that I would have preferred them to be a bit snugger. I have a small head and short to medium-length hair, so I need a smaller cap. I am still able to use this in the shower but I have to be careful it does not move around too much.",
+      "Segments": [
+          {
+              "SegmentID": "1",
+              "SegmentText": "These shower caps are really attractive in the style I ordered them in.",
+              "Sentiment": "Positive",
+              "Token": ["shower caps", "style"]
+          },
+          {
+              "SegmentID": "2",
+              "SegmentText": "The only issue I have is that I would have preferred them to be a bit snugger.",
+              "Sentiment": "Negative",
+              "Token": ["snugger"]
+          }
+      ]
+  },
+  {
+      "ReviewID": "51",
+      "ReviewText": "The brush is really nice, good craftsmanship with a thick substantial handle.  It deserves to be loved, but only if you're right-handed.  The way the bristles are angled makes the brush upside-down in a left hand.  Sure, you can use the long bristles, but that defeats the purpose of the angle which really does make the brush go through whiskers more easily.  We Southpaws are very used to this.  So many products designed to fit in a hand are made for the right hand, which makes them awkward or ineffective (like scissors) for 10% of us.  When that happens, I find that I don't reach for that item as often, or I avoid it altogether, and, sadly, this fine brush sits seldom-used in my bathroom.  Maybe some future version could have the peak of the bristles in the middle with an angle on both sides.",
+      "Segments": [
+          {
+              "SegmentID": "1",
+              "SegmentText": "The brush is really nice, good craftsmanship with a thick substantial handle",
+              "Sentiment": "Positive",
+              "Token": ["brush", "craftsmanship, handle"]
+          },
+          {
+              "SegmentID": "2",
+              "SegmentText": "but that defeats the purpose of the angle which really does make the brush go through whiskers more easily.  We Southpaws are very used to this.  So many products designed to fit in a hand are made for the right hand, which makes them awkward or ineffective (like scissors) for 10% of us.  When that happens, I find that I don't reach for that item as often, or I avoid it altogether, and, sadly, this fine brush sits seldom-used in my bathroom.",
+              "Sentiment": "Negative",
+              "Token": ["angle", "fit"]
+          }
+      ]
+  },
   
     {
       "ReviewID": "52",
