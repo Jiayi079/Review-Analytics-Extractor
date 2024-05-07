@@ -34,11 +34,12 @@ class Gemini:
         prompt = f"""I want you to summarize a review of a product.
                 Some Noun keywords of the attributes of the product must be included in the summary as noun words.
                 Prevent using any contrast words in the summary. If seeing one from the review, split it into two sentences.
-                If the review talks about anything about shipping, include it in the summary.
+                If you find the word "shipping" in the review, include all the discussion about shipping in the summary. If you don't find it, ignore this rule.
                 You also need to make sure that the summary is concise and informative.
-                Do not make up any new noun words that are not in the review.
+                Any Noun words that are not in the review should not be included in the summary.
                 Make sure each sentence in the summary must end with period.
                 Make sure each sentence in the summary only talks about positive or negative attributes of the product.
+                Ignore a sentence of the review if it doesn't include any informative Noun words about the product itself. (Don't count verbs, adjective, and adverbs)
 
                 I will use the summary you generated to extract keywords of attributes of the product. If a sentence in the summary is not about the product or shipping, I will not be able to extract any keywords.
 
@@ -49,14 +50,10 @@ class Gemini:
         response = self.model.generate_content(prompt)
         return response.text
 
-    def split_sentences(self, paragraph):
-        pattern = r"(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|!)\s"
-        sentences = re.split(pattern, paragraph)
-        return sentences
 
     def get_keywords(self, text):
-        prompt = f"""I want you to detect the sentiment and extract keywords from the sentence i provided. 
-        The sentence will be a review of a product. 
+        prompt = f"""I want you to extract keywords from the paragraph i provided. 
+        The paragraph will be a review of a product. 
         
         For example, here is the positive review: "The product is truly exceptional in terms of both aesthetics and functionality". 
         You can see that the review is positive and user likes the aesthetics and functionality of the product. 
@@ -66,13 +63,23 @@ class Gemini:
         In this case, the user is not happy with the shipping and handling of the product. 
         So the keywords are shipping and handling.
         
-        Remember, the keywords should only be related to the product itself instead of others like personal feelings.
-        Only use the Noun words from the review. Do not make up any new words like converting adjectives or adverb to nouns.
+        Remember, the keywords should only be related to the product.
+        For example, if the review is "The washer can clean shirts very well", "shirts" is not a keyword because it is not a product attribute. This review doesn't have any keywords.
+        If the review is "It's required to have some skills in order to use this product", "skills" is not a keyword because it is not a product attribute and "product" either since it's not informative. This review doesn't have any keywords.
+        If the review is "It doesn't take a lot of space", "space" is a keyword because it is related to the product size.
+        You can clearly find the what product it is from the review.
+        
+        The product name itself is not a keyword.
+        Keywords must be a noun word. Ignore any other words like verbs, adjectives, adverbs, even if they are related to the product.
+        Only use the Noun words from the review. Do not make up any new words like converting adjectives or adverb to nouns. (For example, don't convert perform well to performance)
         Ideally, the keyword you extracted better be a word instead of a phrase. Unless the phrase means something special.
-        Extract only one keyword for a review unless the review has some "a and b" cases just like in the example positive review.
+        Extract less than or equal to keyword for one sentence unless it has some "a and b" cases just like in the example positive review.
+        The keywords should not be a letter.
+        If you can't find any keywords, just provide an empty list.
+        
 
         Please provide the response with the following json format only:
-        {{"sentiment": either positive or negative, "keywords": a list of the keywords extracted from the sentence}}
+        {{"positive": a list of the positive keywords you extracted, "negative": a list of the negative keywords you extracted}}
         
         Here is the review you need to analyze: {text}"""
 
@@ -90,25 +97,25 @@ class Gemini:
         return response.text.lower()
 
 
-    def analyze_review(self, text, bart=False):
-        if bart:
-            summary = self.summarize_bart(text)
+    def analyze_review(self, text, summarize=True, bart=False):
+        if summarize:
+            if bart:
+                review = self.summarize_bart(text)
+            else:
+                time.sleep(1)
+                review = self.summarize_gemini(text)
         else:
-            time.sleep(1)
-            summary = self.summarize_gemini(text)
-        sentences = self.split_sentences(summary)
+            review = text
+
         positive = []
         negative = []
-        for sentence in sentences:
-            response = self.get_keywords(sentence)
-            try:
-                response = json.loads(response)
-            except:
-                continue
-            if response["sentiment"] == "positive":
-                positive.extend(response["keywords"])
-            else:
-                negative.extend(response["keywords"])
+        response = self.get_keywords(review)
+        try:
+            response = json.loads(response)
+        except:
+            return positive, negative
+        positive.extend(response["positive"])
+        negative.extend(response["negative"])
         return positive, negative
 
 

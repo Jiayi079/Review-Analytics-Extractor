@@ -34,7 +34,7 @@ def calculate_metrics(dataset, model):
     for review in dataset:
         process += 1
         print(process, "/", len(dataset))
-        predicted_positive_tokens, predicted_negative_tokens = model.analyze_review(review["ReviewText"])
+        predicted_positive_tokens, predicted_negative_tokens = model.analyze_review(review["ReviewText"], False, False)
         actual_positive_tokens = set()
         actual_negative_tokens = set()
         for segment in review["Segments"]:
@@ -42,6 +42,11 @@ def calculate_metrics(dataset, model):
                 actual_positive_tokens.update(segment["Token"])
             elif segment["Sentiment"] == "Negative":
                 actual_negative_tokens.update(segment["Token"])
+
+        print("Predicted Positive Tokens:", predicted_positive_tokens)
+        print("Actual Positive Tokens:", actual_positive_tokens)
+        print("Predicted Negative Tokens:", predicted_negative_tokens)
+        print("Actual Negative Tokens:", actual_negative_tokens)
 
         for token in predicted_positive_tokens:
             if any(compare_similarity(token, actual_token) for actual_token in actual_positive_tokens):
@@ -82,7 +87,7 @@ def calculate_metrics(dataset, model):
     return precision_positive, recall_positive, f1_score_positive, precision_negative, recall_negative, f1_score_negative, overall_precision, overall_recall, overall_f1_score, confusion_matrix
 
 
-model = Traditional()
+model = Gemini()
 precision_positive, recall_positive, f1_score_positive, precision_negative, recall_negative, f1_score_negative, overall_precision, overall_recall, overall_f1_score, confusion_matrix = calculate_metrics(dataset, model)
 print("Positive Tokens:")
 print("Precision:", precision_positive)
