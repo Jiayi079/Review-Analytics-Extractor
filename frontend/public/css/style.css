@@ -20,6 +20,11 @@ body, html {
     align-items: center;
 }
 
+.product-image img {
+    width: 200px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+
 .reviews-header {
     text-align: center;
     margin-bottom: 20px;
@@ -97,7 +102,6 @@ li {
 
 /* Styles for review sections */
 .positive, .negative {
-    width: 50%; /* Adjusted for better text fit */
     text-align: center; /* Centers text */
 }
 
@@ -106,4 +110,8 @@ li {
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
+}
+
+#temp {
+    margin-left: 60px;
 }

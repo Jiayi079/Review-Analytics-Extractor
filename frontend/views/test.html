@@ -10,7 +10,7 @@
 <div class="container">
     <header>
         <div class="product-image">
-            <img src="{{ url_for('static', filename='images/visionpro.jpg') }}" alt="Product Image">
+            <img src="{{ url_for('static', filename='images/iphone.jpg') }}" alt="Product Image">
         </div>
     </header>
     <main>
@@ -19,12 +19,17 @@
                 <h2>Total Reviews: <span id="totalReviewCount">xxxx</span></h2>
             </div>
             <div class="review-sections">
-                <div id="positiveKeywords" class="review-column positive">
-                    <h3>Positive Reviews: <span id="positiveReviewsCount">xxxx</span></h3>
+                <div>
+                    <h3>Positive Reviews: <span id="positiveReviewsCount"></span></h3>
+                    <div id="positiveKeywords" class="review-column positive">
+
+                    </div>
                 </div>
-                <div id="negativeKeywords" class="review-column negative">
-                    <h3>Negative Reviews: <span id="negativeReviewsCount">xxxx</span></h3>
-                </div>
+                <div>
+                    <h3 id="temp">Negative Reviews: <span id="negativeReviewsCount"></span></h3>
+                    <div id="negativeKeywords" class="review-column negative">
+
+                    </div>
             </div>
         </div>
         <form class="review-form" id="reviewForm">
@@ -71,6 +76,8 @@
             .then(response => response.json())
             .then(data => {
                 document.getElementById('totalReviewCount').innerText = data.total;
+                document.getElementById('positiveReviewsCount').innerText = data.positive_reviews_count;
+                document.getElementById('negativeReviewsCount').innerText = data.negative_reviews_count;
                 updateKeywordsUI(data.positive, 'positiveKeywords');
                 updateKeywordsUI(data.negative, 'negativeKeywords');
             })
@@ -83,9 +90,7 @@
         function updateKeywordsUI(keywords, elementId) {
             const container = document.getElementById(elementId);
             container.innerHTML = ''; // Clear previous contents
-            const header = document.createElement('h3');
-            header.textContent = elementId.replace('Keywords', ' Reviews Keywords');
-            container.appendChild(header);
+            
             
             keywords.slice(0, 10).forEach(kw => { // Only show top 10 keywords
                 const p = document.createElement('p');
