@@ -34,52 +34,66 @@
     </main>
 </div>
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    fetchData();
-
-    const form = document.getElementById('reviewForm');
-    form.addEventListener('submit', function(event) {
-        event.preventDefault();
-        const reviewText = document.getElementById('review').value;
-        fetch('/submit-review', {
-            method: 'POST',
-            headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify({ review: reviewText })
-        })
-        .then(response => response.json())
-        .then(json => {
-            alert("Review Submitted Successfully");
-            fetchData();  // Reload keywords after submitting
-            document.getElementById('review').value = '';
-        })
-        .catch(err => {
-            alert("Error Submitting Review");
+    document.addEventListener('DOMContentLoaded', function() {
+        fetchData();
+    
+        const form = document.getElementById('reviewForm');
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            const reviewText = document.getElementById('review').value;
+            fetch('/submit-review', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({ review: reviewText })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Failed to submit review');
+                }
+                return response.json();
+            })
+            .then(json => {
+                if (json.status !== "success") {
+                    throw new Error(json.message || "Unknown error occurred");
+                }
+                alert("Review Submitted Successfully");
+                fetchData();  // Reload keywords after submitting
+                document.getElementById('review').value = ''; // Clear the textarea after submitting
+            })
+            .catch(err => {
+                console.error(err);
+                alert("Error Submitting Review: " + err.message);
+            });
         });
+    
+        function fetchData() {
+            fetch('/get_keywords')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('totalReviewCount').innerText = data.total;
+                updateKeywordsUI(data.positive, 'positiveKeywords');
+                updateKeywordsUI(data.negative, 'negativeKeywords');
+            })
+            .catch(error => {
+                console.error('Error loading keywords:', error);
+                alert("Failed to load keywords: " + error.message);
+            });
+        }
+    
+        function updateKeywordsUI(keywords, elementId) {
+            const container = document.getElementById(elementId);
+            container.innerHTML = ''; // Clear previous contents
+            const header = document.createElement('h3');
+            header.textContent = elementId.replace('Keywords', ' Reviews Keywords');
+            container.appendChild(header);
+            
+            keywords.slice(0, 10).forEach(kw => { // Only show top 10 keywords
+                const p = document.createElement('p');
+                p.textContent = `${kw.keyword} - ${kw.count}`;
+                container.appendChild(p);
+            });
+        }
     });
-
-    function fetchData() {
-        fetch('/get_keywords')
-        .then(response => response.json())
-        .then(data => {
-            document.getElementById('totalReviewCount').innerText = data.total;
-            document.getElementById('positiveReviewsCount').innerText = data.positive_reviews_count;
-            document.getElementById('negativeReviewsCount').innerText = data.negative_reviews_count;
-            updateKeywordsUI(data.positive, 'positiveKeywords');
-            updateKeywordsUI(data.negative, 'negativeKeywords');
-        })
-        .catch(error => console.error('Error loading keywords:', error));
-    }
-
-    function updateKeywordsUI(keywords, elementId) {
-        const container = document.getElementById(elementId);
-        
-        keywords.slice(0, 10).forEach(kw => { // Only show top 10 keywords
-            const p = document.createElement('p');
-            p.textContent = `${kw.keyword} - ${kw.count}`;
-            container.appendChild(p);
-        });
-    }
-});
-</script>
+</script>    
 </body>
 </html>
